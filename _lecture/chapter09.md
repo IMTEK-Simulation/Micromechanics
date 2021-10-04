@@ -2,7 +2,7 @@
 layout: default
 title: "Chapter 09"
 parent: Lecture
-date: 2021-09-28
+date: 2021-10-04
 categories: lecture
 author: Lars Pastewka
 nav_order: 9
@@ -11,7 +11,7 @@ nav_order: 9
 
 <h2 class='chapterHead'><span class='titlemark'>Chapter 9</span><br /><a id='x1-10009'></a>Beams</h2>
 <h3 class='sectionHead'><span class='titlemark'>9.1 </span> <a id='x1-20009.1'></a>Stresses</h3>
-<!-- l. 5 --><p class='noindent'><a href='https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=4555e4d3-94b0-450d-92f7-acac00e98b5f' class='url'><span class='cmtt-12'>https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=4555e4d3-94b0-450d-92f7-acac00e98b5f</span></a>
+<!-- l. 5 --><p class='noindent'><a class='url' href='https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=4555e4d3-94b0-450d-92f7-acac00e98b5f'><span class='cmtt-12'>https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=4555e4d3-94b0-450d-92f7-acac00e98b5f</span></a>
 </p><!-- l. 7 --><p class='indent'> Assume a rectangular beam in plane stress or plane strain subject to
 bending. (The “plane” direction is the \(y\)-direction.) The surface normal of the
 beam is oriented in \(z\)-direction. Bending will give rise to internal stresses
@@ -75,7 +75,7 @@ condition is fulfilled in the integral, i.e. in the weak sense.
 </p><!-- l. 106 --><p class='noindent'>
 </p>
 <h3 class='sectionHead'><span class='titlemark'>9.2 </span> <a id='x1-30009.2'></a>Displacements</h3>
-<!-- l. 108 --><p class='noindent'><a href='https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=8e0b3bab-8abc-4c2a-87cc-acac00e98b92' class='url'><span class='cmtt-12'>https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=8e0b3bab-8abc-4c2a-87cc-acac00e98b92</span></a>
+<!-- l. 108 --><p class='noindent'><a class='url' href='https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=8e0b3bab-8abc-4c2a-87cc-acac00e98b92'><span class='cmtt-12'>https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=8e0b3bab-8abc-4c2a-87cc-acac00e98b92</span></a>
 </p><!-- l. 110 --><p class='indent'> Now that the know the stress inside the beam, we can compute the
 displacement and thereby the deformation of the beam from Hooke’s law. Starting
 from Hooke’s law, \begin{align} \label{eq:beamhooke1} \varepsilon _{xx} \equiv u_{x,x} &amp;= \sigma _{xx}/E - \nu \sigma _{zz}/E \\ \label{eq:beamhooke2} 2\varepsilon _{xz} \equiv u_{x,z} + u_{z,x} &amp;= 2(1+\nu )\tau _{xz}/E, \end{align}
@@ -96,7 +96,7 @@ if \(E I_y\) does not depend on position \(x\).
 </p><!-- l. 148 --><p class='noindent'>
 </p>
 <h3 class='sectionHead'><span class='titlemark'>9.3 </span> <a id='x1-40009.3'></a>Buckling</h3>
-<!-- l. 150 --><p class='noindent'><a href='https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=95ca7b6a-0bf7-441e-9ca0-acb901506883' class='url'><span class='cmtt-12'>https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=95ca7b6a-0bf7-441e-9ca0-acb901506883</span></a>
+<!-- l. 150 --><p class='noindent'><a class='url' href='https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=95ca7b6a-0bf7-441e-9ca0-acb901506883'><span class='cmtt-12'>https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=95ca7b6a-0bf7-441e-9ca0-acb901506883</span></a>
 
 
 

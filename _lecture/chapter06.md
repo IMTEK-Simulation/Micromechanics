@@ -2,7 +2,7 @@
 layout: default
 title: "Chapter 06"
 parent: Lecture
-date: 2021-09-28
+date: 2021-10-04
 categories: lecture
 author: Lars Pastewka
 nav_order: 6
@@ -11,7 +11,7 @@ nav_order: 6
 
 <h2 class='chapterHead'><span class='titlemark'>Chapter 6</span><br /><a id='x1-10006'></a>Strain and displacement</h2>
 <h3 class='sectionHead'><span class='titlemark'>6.1 </span> <a id='x1-20006.1'></a>Strain</h3>
-<!-- l. 5 --><p class='noindent'><a href='https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=1a7ba6e0-1cdb-4422-b7a5-ac9100b5586c' class='url'><span class='cmtt-12'>https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=1a7ba6e0-1cdb-4422-b7a5-ac9100b5586c</span></a>
+<!-- l. 5 --><p class='noindent'><a class='url' href='https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=1a7ba6e0-1cdb-4422-b7a5-ac9100b5586c'><span class='cmtt-12'>https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=1a7ba6e0-1cdb-4422-b7a5-ac9100b5586c</span></a>
 </p><!-- l. 7 --><p class='noindent'>
 </p>
 <h3 class='sectionHead'><span class='titlemark'>6.2 </span> <a id='x1-30006.2'></a>Displacement</h3>

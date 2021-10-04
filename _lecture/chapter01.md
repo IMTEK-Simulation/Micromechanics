@@ -2,7 +2,7 @@
 layout: default
 title: "Chapter 01"
 parent: Lecture
-date: 2021-09-28
+date: 2021-10-04
 categories: lecture
 author: Lars Pastewka
 nav_order: 1

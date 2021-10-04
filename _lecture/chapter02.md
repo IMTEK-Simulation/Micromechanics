@@ -2,7 +2,7 @@
 layout: default
 title: "Chapter 02"
 parent: Lecture
-date: 2021-09-28
+date: 2021-10-04
 categories: lecture
 author: Lars Pastewka
 nav_order: 2
@@ -11,11 +11,11 @@ nav_order: 2
 
 <h2 class='chapterHead'><span class='titlemark'>Chapter 2</span><br /><a id='x1-10002'></a>Bearings</h2>
 <h3 class='sectionHead'><span class='titlemark'>2.1 </span> <a id='x1-20002.1'></a>Bearings and degrees of freedom</h3>
-<!-- l. 5 --><p class='noindent'><a class='url' href='https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=d016adde-d3c6-44e0-8d29-ac720113b2bb'><span class='cmtt-12'>https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=d016adde-d3c6-44e0-8d29-ac720113b2bb</span></a>
+<!-- l. 5 --><p class='noindent'><a href='https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=d016adde-d3c6-44e0-8d29-ac720113b2bb' class='url'><span class='cmtt-12'>https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=d016adde-d3c6-44e0-8d29-ac720113b2bb</span></a>
 </p><!-- l. 7 --><p class='noindent'>
 </p>
 <h3 class='sectionHead'><span class='titlemark'>2.2 </span> <a id='x1-30002.2'></a>Free body diagrams</h3>
-<!-- l. 9 --><p class='noindent'><a class='url' href='https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=55e9b88e-9101-4af7-8ba5-ac720113b2e3'><span class='cmtt-12'>https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=55e9b88e-9101-4af7-8ba5-ac720113b2e3</span></a>
+<!-- l. 9 --><p class='noindent'><a href='https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=55e9b88e-9101-4af7-8ba5-ac720113b2e3' class='url'><span class='cmtt-12'>https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=55e9b88e-9101-4af7-8ba5-ac720113b2e3</span></a>
 
 
 
