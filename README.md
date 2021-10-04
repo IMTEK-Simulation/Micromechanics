@@ -1,6 +1,6 @@
-# Molecular Dynamics with C++
+# Micromechanics
 
-This repository contains the source code for the class "High-Performance Computing: Molecular Dynamic with C++" at the University of Freiburg. The compiled pages can be accessed [here](https://imtek-simulation.github.io/MolecularDynamics/).
+This repository contains the source code for the class "Micromechanics" at the University of Freiburg. The compiled pages can be accessed [here](https://imtek-simulation.github.io/Micromechanics/).
 
 ## Local development
 
