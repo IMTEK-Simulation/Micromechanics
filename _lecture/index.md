@@ -27,5 +27,5 @@ This class teaches the following subjects:
 
 Please talk to us if aspects of this material are unclear or wrong. We do make mistakes; please contact us immediately in the case that you discover something that is wrong with the material. Please leave a comment on the [issue tracker][issue] on [Github][github].
 
-[issue]: https://github.com/IMTEK-Simulation/Mikromechanics/issues
-[github]: https://github.com/IMTEK-Simulation/Mikromechanics
+[issue]: https://github.com/IMTEK-Simulation/Micromechanics/issues
+[github]: https://github.com/IMTEK-Simulation/Micromechanics
