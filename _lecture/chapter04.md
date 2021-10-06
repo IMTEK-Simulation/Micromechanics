@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Chapter 04"
+title: "Chapter 04 [Nov. 8-14]"
 parent: Lecture
 date: 2021-10-06
 categories: lecture
@@ -10,7 +10,7 @@ nav_order: 4
 
 
 <h2 class='chapterHead'><span class='titlemark'>Chapter 4</span><br /><a id='x1-10004'></a>Elastostatic equilibrium</h2>
-<div id='shaded*-1' class='framedenv'>
+<div class='framedenv' id='shaded*-1'>
 <!-- l. 3 --><p class='noindent'><span class='underline'><span class='cmbx-12'>Note:</span></span> We will make extensive use of vector and tensor calculus in this and the
 following chapters, and it is important to clearly lay out the mathematical
 notation used here.
@@ -97,7 +97,7 @@ body.
 
 
 
-<!-- l. 97 --><p class='noindent'> <img width='390' alt='PIC' src='figures/Figure_Stress_Equilibrium-.png' height='274' /> <a id='x1-3001r1'></a>
+<!-- l. 97 --><p class='noindent'> <img alt='PIC' width='390' height='274' src='figures/Figure_Stress_Equilibrium-.png' /> <a id='x1-3001r1'></a>
 <a id='x1-3002'></a>
 </p>
 <figcaption class='caption'><span class='id'>Figure 4.1:: </span><span class='content'>Force equilibrium in a small volume element inside a solid body.
@@ -121,7 +121,7 @@ or in word: The divergence of the stress tensor equals the body force.
 Equation \eqref{eq:equilibriumcondition} is the central expression of elastostatics
 that describes force balance within a solid body.
 </p>
-<div id='shaded*-1' class='framedenv'>
+<div class='framedenv' id='shaded*-1'>
 <!-- l. 163 --><p class='noindent'><span class='underline'><span class='cmbx-12'>Note:</span></span> The differential operators in tensor calculus are defined by means of the
 <span class='cmti-12'>nabla operator</span> \(\nabla \). In an \(n\)-dimensional Euclidean space equipped with Cartesian
 coordinates it reads \begin{equation} \label{eq:nablanDCart} \nabla =\left (\frac{\partial }{\partial x_1},\frac{\partial }{\partial x_2},\dots ,\frac{\partial }{\partial x_n} \right )=\sum _{i=1}^{n}\hat{e}_i\frac{\partial }{\partial x_i}, \end{equation}
@@ -137,7 +137,7 @@ surface of the volume element \(V\), and these forces must sum to the body force
 nothing else than a statement of force balance for any volume element within the
 solid body.
 </p>
-<div id='shaded*-1' class='framedenv'>
+<div class='framedenv' id='shaded*-1'>
 <!-- l. 179 --><p class='noindent'><span class='underline'><span class='cmbx-12'>Note:</span></span> The divergence theorem is an important result of vector analysis. It
 converts an integral over a volume \(V\) into an integral over the surface \(S\)
 of this volume. For a vector field \(\v{f}(\v{r})\), the divergence theorem states that
@@ -146,7 +146,7 @@ Here, \(\hat{n}(\v{r})\) is the normal vector pointing outward on the surface \(
 
 
 
-<div id='shaded*-1' class='framedenv'>
+<div class='framedenv' id='shaded*-1'>
 <!-- l. 190 --><p class='noindent'><span class='underline'><span class='cmbx-12'>Note:</span></span> Note that \(\nabla \cdot \t{\sigma } \equiv \text{div} \ \t{\sigma }\). Sometimes it is useful to make use of Einstein summation, i.e.
 implicit summation over repeated indices within the same quantity of in products.
 Examples are: \(\nabla \cdot \t{\sigma } = \partial _{i} \sigma _{ij} = \sum _i \partial _{i} \sigma _{ij}, 3\,\sigma _h = \sigma _{kk} = \sum _k \sigma _{kk} = tr \,\t{\sigma }\), where \(\sigma _h\) is the hydrostatic stress. In the solid mechanics literature,

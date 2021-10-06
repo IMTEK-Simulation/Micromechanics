@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Chapter 05"
+title: "Chapter 05 [Nov. 15-21]"
 parent: Lecture
 date: 2021-10-06
 categories: lecture
@@ -121,7 +121,7 @@ represents a sum over some (hidden) index.
 </p>
 </div>
 <h3 class='sectionHead'><span class='titlemark'>5.1 </span> <a id='x1-20005.1'></a>Rotating the stress tensor</h3>
-<!-- l. 101 --><p class='noindent'><a href='https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=7103f19f-f4b0-4d11-9030-ac82015e8337' class='url'><span class='cmtt-12'>https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=7103f19f-f4b0-4d11-9030-ac82015e8337</span></a>
+<!-- l. 101 --><p class='noindent'><a class='url' href='https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=7103f19f-f4b0-4d11-9030-ac82015e8337'><span class='cmtt-12'>https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=7103f19f-f4b0-4d11-9030-ac82015e8337</span></a>
 </p><!-- l. 103 --><p class='noindent'>
 </p>
 
@@ -196,7 +196,7 @@ Quantities that transform as Eqs. \eqref{eq:vecrot}, \eqref{eq:tens2rot} and
 </p><!-- l. 244 --><p class='noindent'>
 </p>
 <h3 class='sectionHead'><span class='titlemark'>5.2 </span> <a id='x1-50005.2'></a>Principal stresses</h3>
-<!-- l. 246 --><p class='noindent'><a href='https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=5cdff30a-9f6b-47cb-bc25-ac82015e830b' class='url'><span class='cmtt-12'>https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=5cdff30a-9f6b-47cb-bc25-ac82015e830b</span></a>
+<!-- l. 246 --><p class='noindent'><a class='url' href='https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=5cdff30a-9f6b-47cb-bc25-ac82015e830b'><span class='cmtt-12'>https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=5cdff30a-9f6b-47cb-bc25-ac82015e830b</span></a>
 </p><!-- l. 248 --><p class='indent'> Let us discuss in more detail what happens if we rotate a symmetric tensor of
 order 2, i.e. a tensor that fulfills \(\t{\sigma }^T = \t{\sigma }\). From Eq. \eqref{eq:tens2rot} it is
 straightforward to see, that \(\t{\sigma }'^T=\t{\sigma }'\), i.e. the transformed tensor is also symmetric.
@@ -222,7 +222,7 @@ invariant.
 </p><!-- l. 299 --><p class='noindent'>
 </p>
 <h3 class='sectionHead'><span class='titlemark'>5.3 </span> <a id='x1-60005.3'></a>Stress invariants</h3>
-<!-- l. 301 --><p class='noindent'><a href='https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=11d2e291-bdf5-4f2b-8134-ac8300604f90' class='url'><span class='cmtt-12'>https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=11d2e291-bdf5-4f2b-8134-ac8300604f90</span></a>
+<!-- l. 301 --><p class='noindent'><a class='url' href='https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=11d2e291-bdf5-4f2b-8134-ac8300604f90'><span class='cmtt-12'>https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=11d2e291-bdf5-4f2b-8134-ac8300604f90</span></a>
 </p><!-- l. 303 --><p class='indent'> Equation \eqref{eq:diag} fulfills the eigenvalue equations \(\t{\sigma }\cdot \hat{x}=\sigma _1\hat{x}\) and \(\t{\sigma }\cdot \hat{y}=\sigma _2\hat{y}\). Rather
 than explicitly computing a rotation, we can ask the question whether
 we can find a scalar \(\lambda \) and a vector \(\v{v}\) that fulfills the eigenvalue equation

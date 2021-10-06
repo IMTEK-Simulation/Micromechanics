@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Chapter 02"
+title: "Chapter 02 [Okt. 25-31]"
 parent: Lecture
 date: 2021-10-06
 categories: lecture
