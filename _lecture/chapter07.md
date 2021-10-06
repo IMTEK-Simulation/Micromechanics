@@ -2,7 +2,7 @@
 layout: default
 title: "Chapter 07"
 parent: Lecture
-date: 2021-10-04
+date: 2021-10-06
 categories: lecture
 author: Lars Pastewka
 nav_order: 7
@@ -13,8 +13,9 @@ nav_order: 7
 <!-- l. 3 --><p class='noindent'><a href='https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=6580c65e-93a2-4e11-9a50-ac9100b55895' class='url'><span class='cmtt-12'>https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=6580c65e-93a2-4e11-9a50-ac9100b55895</span></a>
 </p>
 <h3 class='sectionHead'><span class='titlemark'>7.1 </span> <a id='x1-20007.1'></a>General form</h3>
-<!-- l. 7 --><p class='noindent'>Finally, we need a constitutive relation (material law) to close the equations of
-elastostatic equilibrium, \begin{equation} \nabla \cdot \t{\sigma } = 0 \quad \text{and} \quad \t{\varepsilon }(\v{r}) = \frac{1}{2} \left (\nabla \v{u} + (\nabla \v{u})^T\right ). \end{equation}
+<!-- l. 7 --><p class='noindent'>In order to compute the deformation of an elastic body, we need a constitutive
+relation (material law) to close the equations of elastostatic equilibrium,
+\begin{equation} \nabla \cdot \t{\sigma } = 0 \quad \text{and} \quad \t{\varepsilon }(\v{r}) = \frac{1}{2} \left (\nabla \v{u} + (\nabla \v{u})^T\right ). \end{equation}
 Since we will be working in linear elasticity, the constitutive equation is a linear
 relationship between \(\t{\sigma }\) and \(\t{\varepsilon }\). The most general form of this linear relationship is
 \begin{equation} \label{eqn:Hookeslaw} \t{\sigma } = \tt{C} : \t{\varepsilon }, \text{or using Einstein summation} \ \sigma _{ij} = C_{ijkl} \varepsilon _{kl}. \end{equation}
@@ -40,35 +41,36 @@ not. The factor of 2 ensures that \(\v{\sigma }=\t{C} \cdot \v{\varepsilon }\) a
 </p>
 <h3 class='sectionHead'><span class='titlemark'>7.2 </span> <a id='x1-30007.2'></a>Isotropic solids</h3>
 <!-- l. 48 --><p class='noindent'>For isotropic elasticity, the total 21 independent elastic constants reduce to two.
-The constitutive equation for isotropic elasticity is \begin{equation} \label{eqn:Isotropic_elasticity} \sigma _{ij} = \lambda \delta _{ij} \varepsilon _{kk} + 2\mu \varepsilon _{ij} \end{equation}
 
 
 
-or its inverse \begin{equation} \label{eqn:Isotropic_elasticity_inverse} \varepsilon _{ij} = \frac{1}{2G} \sigma _{ij} - \frac{\nu }{E} \delta _{ij} \delta _{kk} = \frac{1}{E} [(1+\nu )\sigma _{ij} - \nu \delta _{ij} \sigma _{kk}], \end{equation}
+The constitutive equation for isotropic elasticity is \begin{equation} \label{eq:isotropicelasticity} \sigma _{ij} = \lambda \delta _{ij} \varepsilon _{kk} + 2\mu \varepsilon _{ij} \end{equation}
+or its inverse \begin{equation} \label{eq:isotropicelasticityinverse} \varepsilon _{ij} = \frac{1}{2G} \sigma _{ij} - \frac{\nu }{E} \delta _{ij} \delta _{kk} = \frac{1}{E} [(1+\nu )\sigma _{ij} - \nu \delta _{ij} \sigma _{kk}], \end{equation}
 where \(\delta _{ij}\) is the Kronecker-Delta. These expressions have been conveniently
 written in their most simple form. The constants that show up in
-Eqs. \eqref{eqn:Isotropic˙elasticity} and \eqref{eqn:Isotropic˙elasticity˙inverse}
-are the shear modulus \(\mu \), Lamé’s first constant \(\lambda \), Young’s modulus \(E\) and Poisson
+Eqs. \eqref{eq:isotropicelasticity} and \eqref{eq:isotropicelasticityinverse} are
+the shear modulus \(\mu \), Lamé’s first constant \(\lambda \), Young’s modulus \(E\) and Poisson
 number \(\nu \). Both \(\lambda \) and \(\nu \) are often called Lamé’s constants. Note that \(\sigma _{kk} = 3\sigma _h\) (Einstein
-summation!) where \(3\sigma _h\) is the hydrostatic stress.
+summation!) where \(\sigma _h\) is the hydrostatic stress.
 </p><!-- l. 61 --><p class='indent'> The four moduli are not independent (only two are), and the following
 expressions relate the pairs \(\lambda \), \(\mu \) and \(E\), \(\nu \) to each other: \begin{align} \label{eqn:Relation_Lame} \lambda &amp;= \frac{E\nu }{(1+\nu )(1-2\nu )} \\ \mu &amp;= \frac{E}{2(1+\nu )} \\ \lambda + \mu &amp;= \frac{E}{2(1+\nu )(1-2\nu )} \\ E &amp;= \frac{\mu (3\lambda + 2\mu )}{\lambda + \mu } \\ \nu &amp;= \frac{\lambda }{2(\lambda + \mu )} \end{align}
-</p><!-- l. 71 --><p class='indent'> Note that the volumetric strain \(\varepsilon _h = \frac{1}{3}\:{\rm tr} \ \t{\varepsilon } = \frac{1}{E} [(1 + \nu )\sigma _h - 3\, \nu \sigma _h] = \frac{1}{E} (1-2\nu )\sigma _h\) vanishes at \(\nu = 1/2\). In this case, \(\sigma _{ij} = 2\sigma _h \varepsilon _{ij}\) because the \(\varepsilon _h = \varepsilon _{kk}\) must
-vanish. Note that another common symbol for the shear modulus \(\mu \) is the Latin
-letter \(G\).
-</p><!-- l. 73 --><p class='indent'> We can also write down a free energy functional (often also called a
+</p><!-- l. 70 --><p class='indent'> Note that another common symbol for the shear modulus \(\mu \) is the Latin letter
+\(G\).
+</p><!-- l. 72 --><p class='indent'> The volumetric strain \(\varepsilon _h = \frac{1}{3}\:{\rm tr} \ \t{\varepsilon } = \frac{1}{E} [(1 + \nu )\sigma _h - 3\, \nu \sigma _h] = \frac{1}{E} (1-2\nu )\sigma _h\) vanishes at \(\nu = 1/2\). In this case, \(\sigma _{ij} = 2\sigma _h \varepsilon _{ij}\) because the \(\varepsilon _h = \varepsilon _{kk}\) must
+vanish.
+</p><!-- l. 74 --><p class='indent'> We can also write down a free energy functional (often also called a
 hyperelastic energy density), which is quadratic in the strain \(\t{\varepsilon }\), \begin{equation} \label{eqn:Free_energy} W = \frac{1}{2} \lambda \varepsilon _{ii}^2 + \mu \varepsilon _{ij}^2 \end{equation}
-Using \(\sigma _{ij} = \partial W / \partial \varepsilon _{ij}\) recovers the above constitutive expression Eq. \eqref{eqn:Isotropic˙elasticity}.
+Using \(\sigma _{ij} = \partial W / \partial \varepsilon _{ij}\) recovers the above constitutive expression Eq. \eqref{eq:isotropicelasticity}.
 From the free energy functional we see that any isotropic material must have \(\lambda &gt; 0\) and
 \(\mu &gt; 0\), otherwise the energy could be made arbitrarily small by increasing the
 deformation of the solid. This limits the Poisson number to the range \( -1 &lt; \nu &lt; 1/2 \). Note that \(\nu &lt;0\)
 is typically only achieved for architectured materials such as foams or
 metamaterials.
-</p><!-- l. 80 --><p class='indent'> <a href='https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=61fa9204-ff9c-4874-b217-acaa0109e189' class='url'><span class='cmtt-12'>https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=61fa9204-ff9c-4874-b217-acaa0109e189</span></a>
-</p><!-- l. 82 --><p class='noindent'>
+</p><!-- l. 81 --><p class='indent'> <a href='https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=61fa9204-ff9c-4874-b217-acaa0109e189' class='url'><span class='cmtt-12'>https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=61fa9204-ff9c-4874-b217-acaa0109e189</span></a>
+</p><!-- l. 83 --><p class='noindent'>
 </p>
 <h3 class='sectionHead'><span class='titlemark'>7.3 </span> <a id='x1-40007.3'></a>Example: Auxetic materials</h3>
-<!-- l. 84 --><p class='noindent'><a href='https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=2f5be83c-cd57-41c8-aa7a-acaa0109e1f0' class='url'><span class='cmtt-12'>https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=2f5be83c-cd57-41c8-aa7a-acaa0109e1f0</span></a>
+<!-- l. 85 --><p class='noindent'><a href='https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=2f5be83c-cd57-41c8-aa7a-acaa0109e1f0' class='url'><span class='cmtt-12'>https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=2f5be83c-cd57-41c8-aa7a-acaa0109e1f0</span></a>
 
 
 

@@ -2,7 +2,7 @@
 layout: default
 title: "Chapter 10"
 parent: Lecture
-date: 2021-10-04
+date: 2021-10-06
 categories: lecture
 author: Lars Pastewka
 nav_order: 10
@@ -15,14 +15,14 @@ nav_order: 10
 <h3 class='sectionHead'><span class='titlemark'>10.1 </span> <a id='x1-200010.1'></a>Stress</h3>
 <!-- l. 7 --><p class='noindent'>Kirchhoff plate theory is the straightforward generalization of Euler-Bernoulli
 beam theory to plates. We abandon the plane situation in which all derivatives in
-\(y\)-direction vanish. The weak boundary conditions then become \begin{align} \label{eq:beamweakforcex} Q_x(x,y) &amp;= \int _h dz\, \tau _{xz}(x, y, z) \\ \label{eq:beamweakforcey} Q_y(x,y) &amp;= \int _h dz\, \tau _{yz}(x, y, z) \\ \label{eq:beamweakmomentxx} M_{xx}(x, y) &amp;= \int _h dz\, z \sigma _{xx}(x, y, z) \\ \label{eq:beamweakmomentyy} M_{yy}(x, y) &amp;= \int _h dz\, z \sigma _{yy}(x, y, z) \\ \label{eq:beamweakmomentxy} M_{xy}(x, y) &amp;= \int _h dz\, z \tau _{xy}(x, y, z), \end{align}
+\(y\)-direction vanish. The weak boundary conditions then become \begin{align} \label{eq:beamweakforcex} Q_x(x,y) &amp;= \int _h \dif z\, \tau _{xz}(x, y, z) \\ \label{eq:beamweakforcey} Q_y(x,y) &amp;= \int _h \dif z\, \tau _{yz}(x, y, z) \\ \label{eq:beamweakmomentxx} M_{xx}(x, y) &amp;= \int _h \dif z\, z \sigma _{xx}(x, y, z) \\ \label{eq:beamweakmomentyy} M_{yy}(x, y) &amp;= \int _h \dif z\, z \sigma _{yy}(x, y, z) \\ \label{eq:beamweakmomentxy} M_{xy}(x, y) &amp;= \int _h \dif z\, z \tau _{xy}(x, y, z), \end{align}
 </p><!-- l. 20 --><p class='indent'> where the integral is over the height \(h\) of the plate. \(Q_x\) and \(Q_y\) are called shear forces,
 \(M_{xx}\) and \(M_{yy}\) are bending moments and \(M_{xy}\) is the torsional moment.
-</p><!-- l. 22 --><p class='indent'> Note that employing static equilibrium \(\sigma _{ij,j}=0\) we obtain \begin{equation} Q_{x,x} + Q_{y,y} = \int _{-h/2}^{h/2} dz\, \left ( \tau _{zx,x} + \tau _{zy,y} \right ) = -\int _{-h/2}^{h/2} dz\, \tau _{zz,z} \end{equation}
-but \begin{equation} \int _{-h/2}^{h/2} dz\, \tau _{zz,z} = \tau _{zz}(x, y, h/2) - \tau _{zz}(x, y, -h/2) \equiv p(x,y) \end{equation}
+</p><!-- l. 22 --><p class='indent'> Note that employing static equilibrium \(\sigma _{ij,j}=0\) we obtain \begin{equation} Q_{x,x} + Q_{y,y} = \int _{-h/2}^{h/2} \dif z\, \left ( \tau _{zx,x} + \tau _{zy,y} \right ) = -\int _{-h/2}^{h/2} \dif z\, \tau _{zz,z} \end{equation}
+but \begin{equation} \int _{-h/2}^{h/2} \dif z\, \tau _{zz,z} = \tau _{zz}(x, y, h/2) - \tau _{zz}(x, y, -h/2) \equiv p(x,y) \end{equation}
 where \(p(x,y)\) is the pressure on the plate (cf. also the corresponding equation
-Eq. \eqref{eq:beambczz} for the beam). Similarly \begin{equation} M_{xx,x} + M_{xy,y} = \int _{-h/2}^{h/2} dz\, z\left ( \tau _{xx,x} + \tau _{xy,y} \right ) = -\int _{-h/2}^{h/2} dz\, z\tau _{xz,z} \end{equation}
-and \begin{equation} \int _{-h/2}^{h/2} dz\, z\tau _{xz,z} = \left [z\tau _{xz}\right ]_{-h/2}^{h/2} - \int _{-h/2}^{h/2} dz\, \tau _{xz} = -Q_x. \end{equation}
+Eq. \eqref{eq:beambczz} for the beam). Similarly \begin{equation} M_{xx,x} + M_{xy,y} = \int _{-h/2}^{h/2} \dif z\, z\left ( \tau _{xx,x} + \tau _{xy,y} \right ) = -\int _{-h/2}^{h/2} \dif z\, z\tau _{xz,z} \end{equation}
+and \begin{equation} \int _{-h/2}^{h/2} \dif z\, z\tau _{xz,z} = \left [z\tau _{xz}\right ]_{-h/2}^{h/2} - \int _{-h/2}^{h/2} \dif z\, \tau _{xz} = -Q_x. \end{equation}
 where the last equality holds because \(\tau _{xz}(x,y,h/2)=-\tau _{xz}(x,y,-h/2)\). The condition for static equilibrium \(\sigma _{ij,j}=0\)
 therefore becomes \begin{align} \label{eq:plateeq1} Q_{x,x} + Q_{y,y} &amp;=-p(x,y) \\ \label{eq:plateeq2} M_{xx,x} + M_{xy,y}&amp;=Q_x(x,y) \\ \label{eq:plateeq3} M_{xy,x} + M_{yy,y}&amp;=Q_y(x,y) \end{align}
 </p><!-- l. 48 --><p class='indent'> in the weak form. Note that this can be written in the compact form \(Q_{i,i}=-p\) and
