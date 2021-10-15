@@ -2,7 +2,7 @@
 layout: default
 title: "Chapter 07 [Nov. 29-Dec. 5]"
 parent: Lecture
-date: 2021-10-06
+date: 2021-10-15
 categories: lecture
 author: Lars Pastewka
 nav_order: 7
@@ -10,7 +10,7 @@ nav_order: 7
 
 
 <h2 class='chapterHead'><span class='titlemark'>Chapter 7</span><br /><a id='x1-10007'></a>Hooke’s law</h2>
-<!-- l. 3 --><p class='noindent'><a class='url' href='https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=6580c65e-93a2-4e11-9a50-ac9100b55895'><span class='cmtt-12'>https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=6580c65e-93a2-4e11-9a50-ac9100b55895</span></a>
+<!-- l. 3 --><p class='noindent'><a href='https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=6580c65e-93a2-4e11-9a50-ac9100b55895' class='url'><span class='cmtt-12'>https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=6580c65e-93a2-4e11-9a50-ac9100b55895</span></a>
 </p>
 <h3 class='sectionHead'><span class='titlemark'>7.1 </span> <a id='x1-20007.1'></a>General form</h3>
 <!-- l. 7 --><p class='noindent'>In order to compute the deformation of an elastic body, we need a constitutive
@@ -66,11 +66,11 @@ From the free energy functional we see that any isotropic material must have \(\
 deformation of the solid. This limits the Poisson number to the range \( -1 &lt; \nu &lt; 1/2 \). Note that \(\nu &lt;0\)
 is typically only achieved for architectured materials such as foams or
 metamaterials.
-</p><!-- l. 81 --><p class='indent'> <a class='url' href='https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=61fa9204-ff9c-4874-b217-acaa0109e189'><span class='cmtt-12'>https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=61fa9204-ff9c-4874-b217-acaa0109e189</span></a>
+</p><!-- l. 81 --><p class='indent'> <a href='https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=61fa9204-ff9c-4874-b217-acaa0109e189' class='url'><span class='cmtt-12'>https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=61fa9204-ff9c-4874-b217-acaa0109e189</span></a>
 </p><!-- l. 83 --><p class='noindent'>
 </p>
 <h3 class='sectionHead'><span class='titlemark'>7.3 </span> <a id='x1-40007.3'></a>Example: Auxetic materials</h3>
-<!-- l. 85 --><p class='noindent'><a class='url' href='https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=2f5be83c-cd57-41c8-aa7a-acaa0109e1f0'><span class='cmtt-12'>https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=2f5be83c-cd57-41c8-aa7a-acaa0109e1f0</span></a>
+<!-- l. 85 --><p class='noindent'><a href='https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=2f5be83c-cd57-41c8-aa7a-acaa0109e1f0' class='url'><span class='cmtt-12'>https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=2f5be83c-cd57-41c8-aa7a-acaa0109e1f0</span></a>
 
 
 

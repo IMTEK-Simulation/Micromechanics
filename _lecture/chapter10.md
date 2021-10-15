@@ -1,8 +1,8 @@
 ---
 layout: default
-title: "Chapter 10 [Dez. 20-Jan. 9]"
+title: "Chapter 10 [Jan. 10-16 (2022)]"
 parent: Lecture
-date: 2021-10-06
+date: 2021-10-15
 categories: lecture
 author: Lars Pastewka
 nav_order: 10
@@ -10,7 +10,7 @@ nav_order: 10
 
 
 <h2 class='chapterHead'><span class='titlemark'>Chapter 10</span><br /><a id='x1-100010'></a>Plates</h2>
-<!-- l. 3 --><p class='noindent'><a class='url' href='https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=567d8212-1aeb-4360-90e4-acb901506868'><span class='cmtt-12'>https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=567d8212-1aeb-4360-90e4-acb901506868</span></a>
+<!-- l. 3 --><p class='noindent'><a href='https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=567d8212-1aeb-4360-90e4-acb901506868' class='url'><span class='cmtt-12'>https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=567d8212-1aeb-4360-90e4-acb901506868</span></a>
 </p>
 <h3 class='sectionHead'><span class='titlemark'>10.1 </span> <a id='x1-200010.1'></a>Stress</h3>
 <!-- l. 7 --><p class='noindent'>Kirchhoff plate theory is the straightforward generalization of Euler-Bernoulli

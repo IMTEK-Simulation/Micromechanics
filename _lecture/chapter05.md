@@ -2,7 +2,7 @@
 layout: default
 title: "Chapter 05 [Nov. 15-21]"
 parent: Lecture
-date: 2021-10-06
+date: 2021-10-15
 categories: lecture
 author: Lars Pastewka
 nav_order: 5
@@ -10,7 +10,7 @@ nav_order: 5
 
 
 <h2 class='chapterHead'><span class='titlemark'>Chapter 5</span><br /><a id='x1-10005'></a>Stress</h2>
-<div id='shaded*-1' class='framedenv'>
+<div class='framedenv' id='shaded*-1'>
 <!-- l. 3 --><p class='noindent'><span class='underline'><span class='cmbx-12'>Note:</span></span> We have encountered vectors in the first chapters on statics of rigid bodies
 and have intuitively worked with them. To recap, a vector is an object that
 represents a direction and a magnitude. Geometrically, they are often represented
@@ -28,9 +28,9 @@ Any component-wise representation, such as the one on the right hand side of
 Eq. \eqref{eq:cartvec}, implies a basis. The basis is written explicitly as \(\hat{x}\) and \(\hat{y}\) in
 the middle expression of Eq. \eqref{eq:cartvec}. Note that in component
 notation, the basis vectors are \begin{equation} \hat{x} = \begin{pmatrix} 1 \\ 0 \end{pmatrix} \quad \text{and}\quad \hat{y} = \begin{pmatrix} 0 \\ 1 \end{pmatrix}. \end{equation}
-Note that we will restrict the discussion here to orthogonal bases where \(\hat{x}\cdot \hat{y}=0\). The
-discussion here will use two-dimensional examples, but a generalization to more
-that two dimensions is straightforward
+We will restrict the discussion here to orthogonal bases where \(\hat{x}\cdot \hat{y}=0\). The discussion
+here will use two-dimensional examples, but a generalization to more that two
+dimensions is straightforward
 </p><!-- l. 19 --><p class='indent'> Formally, a vector is an element of a <span class='cmti-12'>vector space</span>. A vector space \(V\) (often also
 called a <span class='cmti-12'>linear space</span>) is a set of objects (for example the set containing our basis
 vectors \(\hat{x}\) and \(\hat{y}\) and linear combinations thereof) along with two operations:
@@ -43,7 +43,7 @@ operations again yield a vector, i.e. an element of \(V\). This can be expressed
 <li class='itemize'>\(a\in \mathbb{R}\) and \(\v{u}\in V\), then \(a\cdot \v{u}\in V\)</li></ul>
 <!-- l. 25 --><p class='noindent'>and hence Eq. \eqref{eq:cartvec} yields a vector. In general, we may multiply the
 vectors by an element of a <span class='cmti-12'>algebraic number field</span> \(\mathbb{F}\) rather than \(\mathbb{R}\). Then we say \(V\) is a
-vector space over the field \(\mathbb{F}\). In this notes (and our lectures) we will always deal
+vector space over the field \(\mathbb{F}\). In these notes (and our lectures) we will always deal
 with either real (\(\mathbb{F}=\mathbb{R}\)) or complex (\(\mathbb{F}=\mathbb{C}\)) numbers.
 </p><!-- l. 28 --><p class='indent'> Recall the concept of an algebraic number field in mathematics. A field is an
 algebraic structure that is a set along with two operations “\(+\)” and “\(\cdot \)” associating
@@ -121,7 +121,7 @@ represents a sum over some (hidden) index.
 </p>
 </div>
 <h3 class='sectionHead'><span class='titlemark'>5.1 </span> <a id='x1-20005.1'></a>Rotating the stress tensor</h3>
-<!-- l. 101 --><p class='noindent'><a class='url' href='https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=7103f19f-f4b0-4d11-9030-ac82015e8337'><span class='cmtt-12'>https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=7103f19f-f4b0-4d11-9030-ac82015e8337</span></a>
+<!-- l. 101 --><p class='noindent'><a href='https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=7103f19f-f4b0-4d11-9030-ac82015e8337' class='url'><span class='cmtt-12'>https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=7103f19f-f4b0-4d11-9030-ac82015e8337</span></a>
 </p><!-- l. 103 --><p class='noindent'>
 </p>
 
@@ -196,7 +196,7 @@ Quantities that transform as Eqs. \eqref{eq:vecrot}, \eqref{eq:tens2rot} and
 </p><!-- l. 244 --><p class='noindent'>
 </p>
 <h3 class='sectionHead'><span class='titlemark'>5.2 </span> <a id='x1-50005.2'></a>Principal stresses</h3>
-<!-- l. 246 --><p class='noindent'><a class='url' href='https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=5cdff30a-9f6b-47cb-bc25-ac82015e830b'><span class='cmtt-12'>https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=5cdff30a-9f6b-47cb-bc25-ac82015e830b</span></a>
+<!-- l. 246 --><p class='noindent'><a href='https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=5cdff30a-9f6b-47cb-bc25-ac82015e830b' class='url'><span class='cmtt-12'>https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=5cdff30a-9f6b-47cb-bc25-ac82015e830b</span></a>
 </p><!-- l. 248 --><p class='indent'> Let us discuss in more detail what happens if we rotate a symmetric tensor of
 order 2, i.e. a tensor that fulfills \(\t{\sigma }^T = \t{\sigma }\). From Eq. \eqref{eq:tens2rot} it is
 straightforward to see, that \(\t{\sigma }'^T=\t{\sigma }'\), i.e. the transformed tensor is also symmetric.
@@ -222,7 +222,7 @@ invariant.
 </p><!-- l. 299 --><p class='noindent'>
 </p>
 <h3 class='sectionHead'><span class='titlemark'>5.3 </span> <a id='x1-60005.3'></a>Stress invariants</h3>
-<!-- l. 301 --><p class='noindent'><a class='url' href='https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=11d2e291-bdf5-4f2b-8134-ac8300604f90'><span class='cmtt-12'>https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=11d2e291-bdf5-4f2b-8134-ac8300604f90</span></a>
+<!-- l. 301 --><p class='noindent'><a href='https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=11d2e291-bdf5-4f2b-8134-ac8300604f90' class='url'><span class='cmtt-12'>https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=11d2e291-bdf5-4f2b-8134-ac8300604f90</span></a>
 </p><!-- l. 303 --><p class='indent'> Equation \eqref{eq:diag} fulfills the eigenvalue equations \(\t{\sigma }\cdot \hat{x}=\sigma _1\hat{x}\) and \(\t{\sigma }\cdot \hat{y}=\sigma _2\hat{y}\). Rather
 than explicitly computing a rotation, we can ask the question whether
 we can find a scalar \(\lambda \) and a vector \(\v{v}\) that fulfills the eigenvalue equation
@@ -235,24 +235,24 @@ For a \(n\times n\) matrix, Eq. \eqref{eq:ev} leads to a polynomial of order \(
 \begin{equation} \det \begin{pmatrix} \sigma _{xx} - \lambda &amp; \sigma _{xy} &amp; \sigma _{xz} \\ \sigma _{xy} &amp; \sigma _{yy} - \lambda &amp; \sigma _{yz} \\ \sigma _{xz} &amp; \sigma _{yz} &amp; \sigma _{zz} - \lambda \end{pmatrix} = -\lambda ^3 + I_1 \lambda ^2 - I_2 \lambda + I_3 =0 \end{equation}
 with \begin{align} \label{eq:genI1} I_1 &amp;= \tr \t{\sigma } = \sigma _{xx} + \sigma _{yy} + \sigma _{zz} \\ \label{eq:genI2} I_2 &amp;= \sigma _{yy}\sigma _{zz} + \sigma _{xx}\sigma _{zz} + \sigma _{xx}\sigma _{yy} - \sigma _{yz}^2 - \sigma _{xz}^2 - \sigma _{xy}^2 \\ \label{eq:genI3} I_3 &amp;= \det \t{\sigma } \end{align}
 </p><!-- l. 335 --><p class='indent'> The quantities \(I_1\) to \(I_3\) are called <span class='cmti-12'>invariants</span>. We have shown above explicitly that
-the trace and the determinat is invariant under rotation. The same holds
-true for all coefficients of the characteristic polynomial. This is because
-\begin{equation} \det \left (\t{R}^T\cdot \t{\sigma }\cdot \t{R}-\lambda \t{1}\right ) = \det \left [\t{R}^T\cdot \left (\t{\sigma }-\lambda \t{1}\right ) \cdot \t{R}\right ] = \det \left (\t{\sigma }-\lambda \t{1}\right ). \end{equation}
+the trace and the determinant are invariant under rotation. The same holds true
+for all coefficients of the characteristic polynomial (two of which are actually trace
+and determinant). This is because \begin{equation} \det \left (\t{R}^T\cdot \t{\sigma }\cdot \t{R}-\lambda \t{1}\right ) = \det \left [\t{R}^T\cdot \left (\t{\sigma }-\lambda \t{1}\right ) \cdot \t{R}\right ] = \det \left (\t{\sigma }-\lambda \t{1}\right ). \end{equation}
 The 3-dimensional tensor therefore has three invariants. These invariants have
-important physical interpretation. For the stress tensor, \(I_1\) is related to the
+important physical interpretations. For the stress tensor, \(I_1\) is related to the
 hydrostatic stress and \(I_2\) to the shear stress.
 </p><!-- l. 345 --><p class='indent'> Note that for a diagonal matrix, \begin{equation} \t{\sigma }' = \begin{pmatrix} \sigma _{1} &amp; 0 &amp; 0 \\ 0 &amp; \sigma _{2} &amp; 0 \\ 0 &amp; 0 &amp; \sigma _{3} \end{pmatrix}, \end{equation}
 
 
 
-the invariants are \begin{align} \label{eq:diagI1} I_1 &amp;= \sigma _1 + \sigma _2 + \sigma _3 \\ \label{eq:diagI2} I_2 &amp;= \sigma _1\sigma _2 + \sigma _1\sigma _3 + \sigma _2\sigma _3 \\ \label{eq:diagI3} I_3 &amp;= \sigma _1\sigma _2\sigma _3 \end{align}
+the invariants are \begin{align} \label{eq:diagI1} I_1 &amp;= \sigma _1 + \sigma _2 + \sigma _3 \\ \label{eq:diagI2} I_2 &amp;= \sigma _1\sigma _2 + \sigma _1\sigma _3 + \sigma _2\sigma _3 \\ \label{eq:diagI3} I_3 &amp;= \sigma _1\sigma _2\sigma _3. \end{align}
 </p><!-- l. 364 --><p class='indent'> By equating Eqs. \eqref{eq:genI1} to \eqref{eq:genI3} with
 Eqs. \eqref{eq:diagI1} to \eqref{eq:diagI3} we can calculate the eigenvalues \(\sigma _1\), \(\sigma _2\)
 and \(\sigma _3\).
 </p><!-- l. 366 --><p class='indent'> Once we have computed the eigenvalues, we can obtain the corresponding
 eigenvectors by solving \begin{equation} \label{eq:eigenvectors} \t{\sigma }\v{v}_1 = \sigma _1 \v{v}_1, \quad \t{\sigma }\v{v}_2 = \sigma _2 \v{v}_2, \quad \text{and}\quad \t{\sigma }\v{v}_3 = \sigma _3 \v{v}_3. \end{equation}
-Note that the expressions only determine the direction of \(\v{v}_i\), not its length, and
-we are free to require \(|\v{v}_i|=1\). Furthermore, let us regard scalar product \(\v{v}_1\cdot \v{v}_2\), then
+Note that the expressions only determine the direction of \(\v{v}_i\), not its length, and we
+are free to require \(|\v{v}_i|=1\). Furthermore, let us regard scalar products \(\v{v}_1\cdot \v{v}_2\), then
 \begin{equation} \sigma _1 \v{v}_1\cdot \v{v}_2 = (\t{\sigma }\cdot \v{v}_1)\cdot \v{v}_2 = \v{v}_1\cdot (\t{\sigma }^T\cdot \v{v}_2) = \v{v}_1\cdot (\t{\sigma }\cdot \v{v}_2) = \sigma _2\v{v}_1\cdot \v{v}_2 \end{equation}
 and if \(\sigma _1\not =\sigma _2\) we must have \(\v{v}_1\cdot \v{v}_2=0\). Hence the eigenvectors of a symmetric matrix
 are orthonormal, or in other words, they form the basis of a coordinate
