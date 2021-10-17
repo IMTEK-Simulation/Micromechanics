@@ -1,8 +1,8 @@
 ---
 layout: default
-title: "Chapter 09 [Dez. 13-19]"
+title: "Chapter 09 [Dez. 13-17]"
 parent: Lecture
-date: 2021-10-15
+date: 2021-10-17
 categories: lecture
 author: Lars Pastewka
 nav_order: 9
@@ -28,7 +28,7 @@ The first term on the right hand side vanishes because the surfaces are traction
 free, \(\tau _{xz}=0\) at \(z=h/2\) and \(z=-h/2\). This yields \begin{align} Q_{,x} &amp;= -q(x) \\ M_{,x} &amp;= Q(x) \end{align}
 </p><!-- l. 34 --><p class='indent'> for the weak form of the equilibrium conditions.
 </p>
-<div class='framedenv' id='shaded*-1'>
+<div id='shaded*-1' class='framedenv'>
 <!-- l. 36 --><p class='noindent'><span class='underline'><span class='cmbx-12'>Note:</span></span> We have not yet talked about free surfaces, but of course every physical
 object will be bounded by surfaces. The surface can be loaded, i.e. there can a
 force acting on it. This force, normalized by area, is called a <span class='cmti-12'>tractions</span>. (We have
@@ -54,7 +54,7 @@ In what follow we show that this is a good assumption, i.e. we can fulfill force
 moment equilibrium and the resulting strains fulfill the compatibility
 conditions.
 </p>
-<div class='framedenv' id='shaded*-1'>
+<div id='shaded*-1' class='framedenv'>
 <!-- l. 57 --><p class='noindent'><span class='underline'><span class='cmbx-12'>Note:</span></span> The theory derived in this chapter is commonly referred to as the
 <span class='cmti-12'>Euler-Bernoulli beam theory</span>. The starting point of this theory is typically not
 Eq. \eqref{eq:beamstress1}, but the assumption that each cross section will

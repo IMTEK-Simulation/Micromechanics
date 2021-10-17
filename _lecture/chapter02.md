@@ -1,8 +1,8 @@
 ---
 layout: default
-title: "Chapter 02 [Okt. 25-31]"
+title: "Chapter 02 [Okt. 25-29]"
 parent: Lecture
-date: 2021-10-15
+date: 2021-10-17
 categories: lecture
 author: Lars Pastewka
 nav_order: 2
@@ -11,7 +11,7 @@ nav_order: 2
 
 <h2 class='chapterHead'><span class='titlemark'>Chapter 2</span><br /><a id='x1-10002'></a>Bearings</h2>
 <h3 class='sectionHead'><span class='titlemark'>2.1 </span> <a id='x1-20002.1'></a>Bearings and degrees of freedom</h3>
-<!-- l. 5 --><p class='noindent'><a class='url' href='https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=d016adde-d3c6-44e0-8d29-ac720113b2bb'><span class='cmtt-12'>https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=d016adde-d3c6-44e0-8d29-ac720113b2bb</span></a>
+<!-- l. 5 --><p class='noindent'><a href='https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=d016adde-d3c6-44e0-8d29-ac720113b2bb' class='url'><span class='cmtt-12'>https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=d016adde-d3c6-44e0-8d29-ac720113b2bb</span></a>
 </p><!-- l. 7 --><p class='indent'> The condition of static equilibrium that we discussed earlier does not mean
 that the body is immovable. The body still can translate and rotate; in
 a two-dimensional case an object can have three <span class='cmti-12'>kinematics degrees of
@@ -32,7 +32,7 @@ of freedom are removed, the system is called <span class='cmti-12'>statically de
 
 
 
-<!-- l. 14 --><p class='noindent'> <img src='newFigures/ch2_Bearings-.png' alt='PIC' height='412' width='585' /> <a id='x1-2001r1'></a>
+<!-- l. 14 --><p class='noindent'> <img alt='PIC' width='585' src='newFigures/ch2_Bearings-.png' height='412' /> <a id='x1-2001r1'></a>
 <a id='x1-2002'></a>
 </p>
 <figcaption class='caption'><span class='id'>Figure 2.1:: </span><span class='content'>The most common types of bearings and corresponding number
@@ -63,7 +63,7 @@ contains extra reactions that can be removed (Fig. <a href='#x1-2003r2'>2.2<!--
 
 
 
-<!-- l. 44 --><p class='noindent'> <img src='newFigures/ch2_UnderandOverDefined-.png' alt='PIC' height='274' width='390' /> <a id='x1-2003r2'></a>
+<!-- l. 44 --><p class='noindent'> <img alt='PIC' width='390' src='newFigures/ch2_UnderandOverDefined-.png' height='274' /> <a id='x1-2003r2'></a>
 <a id='x1-2004'></a>
 </p>
 <figcaption class='caption'><span class='id'>Figure 2.2:: </span><span class='content'>Movable (a), determinate (b) and indeterminate (c) force
@@ -90,7 +90,7 @@ restricted.
 
 
 
-<!-- l. 57 --><p class='noindent'> <img src='newFigures/ch2_CounterExample-.png' alt='PIC' height='274' width='390' /> <a id='x1-2005r3'></a>
+<!-- l. 57 --><p class='noindent'> <img alt='PIC' width='390' src='newFigures/ch2_CounterExample-.png' height='274' /> <a id='x1-2005r3'></a>
 <a id='x1-2006'></a>
 </p>
 <figcaption class='caption'><span class='id'>Figure 2.3:: </span><span class='content'>Example of movable force system with \(D=0\). Parallel vertical forces \(Y_1\)
@@ -100,7 +100,7 @@ and \(Y_2\) cannot restrict horizontal movement of the beam. </span></figcaption
 
 </figure>
 <h3 class='sectionHead'><span class='titlemark'>2.2 </span> <a id='x1-30002.2'></a>Free body diagrams</h3>
-<!-- l. 73 --><p class='noindent'><a class='url' href='https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=55e9b88e-9101-4af7-8ba5-ac720113b2e3'><span class='cmtt-12'>https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=55e9b88e-9101-4af7-8ba5-ac720113b2e3</span></a>
+<!-- l. 73 --><p class='noindent'><a href='https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=55e9b88e-9101-4af7-8ba5-ac720113b2e3' class='url'><span class='cmtt-12'>https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=55e9b88e-9101-4af7-8ba5-ac720113b2e3</span></a>
 </p><!-- l. 75 --><p class='indent'> Free body diagrams provide a way to compute forces acting inside the body
 (internal force variables). By definition, an <span class='cmti-12'>internal force variable </span>is the resultant
 of all internal forces in a solid body at a hypothetical cut through the body
@@ -121,7 +121,7 @@ with reactions, internal force variables can be determined using a <span class='
 
 
 
-<!-- l. 84 --><p class='noindent'> <img src='newFigures/ch2_FreeBodyDiagram-.png' alt='PIC' height='274' width='390' /> <a id='x1-3001r4'></a>
+<!-- l. 84 --><p class='noindent'> <img alt='PIC' width='390' src='newFigures/ch2_FreeBodyDiagram-.png' height='274' /> <a id='x1-3001r4'></a>
 <a id='x1-3002'></a>
 </p>
 <figcaption class='caption'><span class='id'>Figure 2.4:: </span><span class='content'>Internal forces at a hypothetical cut through the body. Note that
@@ -140,7 +140,7 @@ by cutting the beam, we increase the number of bodies to \(n=2\), however,
 we also add three intermediate reactions \(z\), therefore keeping \(D\) constant
 (Eq. <span class='cmbx-12'>??</span>)
 </p>
-<div class='framedenv' id='shaded*-1'>
+<div id='shaded*-1' class='framedenv'>
 <!-- l. 93 --><p class='noindent'><span class='underline'><span class='cmbx-12'>Note:</span></span> To correctly operate with internal force variables, we need to agree on
 non-ambiguous sign conventions. We will obey the following rules </p>
 <ul class='itemize1'>
@@ -164,7 +164,7 @@ corresponding negative intersection is also considered as positive.</li></ul>
 
 
 
-<!-- l. 109 --><p class='noindent'> <img src='newFigures/ch2_BeamExample-.png' alt='PIC' height='274' width='390' /> <a id='x1-3003r5'></a>
+<!-- l. 109 --><p class='noindent'> <img alt='PIC' width='390' src='newFigures/ch2_BeamExample-.png' height='274' /> <a id='x1-3003r5'></a>
 <a id='x1-3004'></a>
 </p>
 <figcaption class='caption'><span class='id'>Figure 2.5:: </span><span class='content'>Reaction forces and moments in the beam fixed on the left side

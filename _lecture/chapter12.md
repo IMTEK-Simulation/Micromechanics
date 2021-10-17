@@ -1,8 +1,8 @@
 ---
 layout: default
-title: "Chapter 12 [Jan. 24-30]"
+title: "Chapter 12 [Jan. 24-28]"
 parent: Lecture
-date: 2021-10-15
+date: 2021-10-17
 categories: lecture
 author: Lars Pastewka
 nav_order: 12
@@ -11,7 +11,7 @@ nav_order: 12
 
 <h2 class='chapterHead'><span class='titlemark'>Chapter 12</span><br /><a id='x1-100012'></a>Brittle failure</h2>
 <h3 class='sectionHead'><span class='titlemark'>12.1 </span> <a id='x1-200012.1'></a>Stress near a crack tip</h3>
-<!-- l. 5 --><p class='noindent'><a class='url' href='https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=e30ac1a6-b801-465b-aedf-acb9015b0c7d'><span class='cmtt-12'>https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=e30ac1a6-b801-465b-aedf-acb9015b0c7d</span></a>
+<!-- l. 5 --><p class='noindent'><a href='https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=e30ac1a6-b801-465b-aedf-acb9015b0c7d' class='url'><span class='cmtt-12'>https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=e30ac1a6-b801-465b-aedf-acb9015b0c7d</span></a>
 </p><!-- l. 7 --><p class='indent'> We now look at brittle fracture. The theory for brittle fracture is developed in
 the framework of a plane problem, i.e. we assume that our crack is infinitely
 extended into one direction. We need to introduce a couple of mathematical tricks
@@ -86,7 +86,7 @@ equation.
 
 
 </p>
-<div class='framedenv' id='shaded*-1'>
+<div id='shaded*-1' class='framedenv'>
 <!-- l. 119 --><p class='noindent'><span class='underline'><span class='cmbx-12'>Note:</span> </span><span class='cmti-12'>Cauchy-Riemann equations – </span>The Cauchy-Riemann equations are a
 cornerstone of complex analysis. They hold for any differential function of a
 complex variable. Such functions are also called <span class='cmti-12'>holomorphic</span>. Given \(f(z)=u(z) + iv(z)\) (hence \(u=\Re f\) and \(v=\Im f\))
@@ -165,7 +165,7 @@ crack geometry that is discussed in this chapter.
 </p><!-- l. 310 --><p class='noindent'>
 </p>
 <h3 class='sectionHead'><span class='titlemark'>12.2 </span> <a id='x1-600012.2'></a>Fracture toughness</h3>
-<!-- l. 312 --><p class='noindent'><a class='url' href='https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=993c55f0-a6d5-4df9-a1ff-acb9015f614e'><span class='cmtt-12'>https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=993c55f0-a6d5-4df9-a1ff-acb9015f614e</span></a>
+<!-- l. 312 --><p class='noindent'><a href='https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=993c55f0-a6d5-4df9-a1ff-acb9015f614e' class='url'><span class='cmtt-12'>https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=993c55f0-a6d5-4df9-a1ff-acb9015f614e</span></a>
 </p><!-- l. 314 --><p class='noindent'>
 </p>
 <h4 class='subsectionHead'><span class='titlemark'>12.2.1 </span> <a id='x1-700012.2.1'></a>Displacement field at the crack tip</h4>

@@ -1,8 +1,8 @@
 ---
 layout: default
-title: "Chapter 03 [Nov. 1-7]"
+title: "Chapter 03 [Nov. 1-5]"
 parent: Lecture
-date: 2021-10-15
+date: 2021-10-17
 categories: lecture
 author: Lars Pastewka
 nav_order: 3
@@ -29,7 +29,7 @@ length (Fig. <a href='#x1-2001r1'>3.1<!-- tex4ht:ref: fig:contforce --></a>).
 
 
 
-<!-- l. 14 --><p class='noindent'> <img height='329' alt='PIC' width='467' src='newFigures/ch3_ContinuousForce-.png' /> <a id='x1-2001r1'></a>
+<!-- l. 14 --><p class='noindent'> <img src='newFigures/ch3_ContinuousForce-.png' height='329' width='467' alt='PIC' /> <a id='x1-2001r1'></a>
 <a id='x1-2002'></a>
 </p>
 <figcaption class='caption'><span class='id'>Figure 3.1:: </span><span class='content'>(a) Free body diagram for a beam with intermediate cut. (b)
@@ -74,7 +74,7 @@ Note, that \(f^{(i)}\) means \(i-\)th derivative of the function, while \(\Delta
 
 
 
-<!-- l. 57 --><p class='noindent'> <img height='412' alt='PIC' width='585' src='newFigures/ch3_DistributedLoad-.png' /> <a id='x1-3001r2'></a>
+<!-- l. 57 --><p class='noindent'> <img src='newFigures/ch3_DistributedLoad-.png' height='412' width='585' alt='PIC' /> <a id='x1-3001r2'></a>
 <a id='x1-3002'></a>
 </p>
 <figcaption class='caption'><span class='id'>Figure 3.2:: </span><span class='content'>(a) A beam subjected to distributed load. (b) Infinitesimal

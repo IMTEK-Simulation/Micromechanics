@@ -1,8 +1,8 @@
 ---
 layout: default
-title: "Chapter 07 [Nov. 29-Dec. 5]"
+title: "Chapter 07 [Nov. 29-Dec. 3]"
 parent: Lecture
-date: 2021-10-15
+date: 2021-10-17
 categories: lecture
 author: Lars Pastewka
 nav_order: 7
@@ -34,7 +34,7 @@ that occurs in Eq. \eqref{eq:Voigtstrain}. Voigt notation then becomes
 \begin{equation} \label{eq:Voigtstressgamma} \v{\sigma } = (\sigma _{xx},\sigma _{yy},\sigma _{zz},\tau _{yz},\tau _{xz},\tau _{xy}) \end{equation}
 and \begin{equation} \label{eq:Voigtstraingamma} \v{\varepsilon } = (\varepsilon _{xx},\varepsilon _{yy},\varepsilon _{zz},\gamma _{yz},\gamma _{xz},\gamma _{xy}). \end{equation}
 </p>
-<div class='framedenv' id='shaded*-1'>
+<div id='shaded*-1' class='framedenv'>
 <!-- l. 42 --><p class='noindent'><span class='underline'><span class='cmbx-12'>Note:</span></span> It is important to keep in mind that the \(\gamma \)’s contain a factor 2 but the \(\tau \)’s do
 not. The factor of 2 ensures that \(\v{\sigma }=\t{C} \cdot \v{\varepsilon }\) and \(\t{\sigma } = \tt{C} : \t{\varepsilon }\) are the same constitutive law. </p></div>
 <!-- l. 46 --><p class='noindent'>

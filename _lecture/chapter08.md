@@ -1,8 +1,8 @@
 ---
 layout: default
-title: "Chapter 08 [Dez. 6-12]"
+title: "Chapter 08 [Dez. 6-10]"
 parent: Lecture
-date: 2021-10-15
+date: 2021-10-17
 categories: lecture
 author: Lars Pastewka
 nav_order: 8
@@ -10,7 +10,7 @@ nav_order: 8
 
 
 <h2 class='chapterHead'><span class='titlemark'>Chapter 8</span><br /><a id='x1-10008'></a>Plane problems</h2>
-<!-- l. 3 --><p class='noindent'><a class='url' href='https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=7ebb9e3e-c8c8-4640-ab4b-acaa0109e1b4'><span class='cmtt-12'>https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=7ebb9e3e-c8c8-4640-ab4b-acaa0109e1b4</span></a>
+<!-- l. 3 --><p class='noindent'><a href='https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=7ebb9e3e-c8c8-4640-ab4b-acaa0109e1b4' class='url'><span class='cmtt-12'>https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=7ebb9e3e-c8c8-4640-ab4b-acaa0109e1b4</span></a>
 </p><!-- l. 5 --><p class='indent'> Plane problems are problems where the system has a symmetry in a certain
 direction. We will here use the \(y\)-direction as the direction in which the plane
 conditions hold. This symmetry implies that the relevant quantities do not
