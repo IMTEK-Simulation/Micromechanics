@@ -7,6 +7,6 @@ author : Lars Pastewka
 nav_order: 0
 ---
 
-# Problem set 00 <br/> Math proficiency evaluation
+# Problem set 00 <br/> Review of basic concepts
 
 You can download the math proficiency evaluation that we did in the first class [here](exercise_00_students.pdf).
