@@ -9,4 +9,5 @@ nav_order: 1
 
 # Problem set 01 <br/> Forces and moments
 
-You can download this problem set [here](exercise_01_students.pdf).
+You can download this problem set [here](exercise_01_students.pdf). Please find the solutions to this problem set [here](exercise_01_solutions.pdf).
+
