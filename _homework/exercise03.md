@@ -9,4 +9,4 @@ nav_order: 3
 
 # Problem set 03 <br/> Line loads and Dirac deltas
 
-You can download this problem set [here](exercise_03_students.pdf).
+You can download this problem set [here](exercise_03_students.pdf). Please find the solutions to this problem set [here](exercise_03_solutions.pdf).
