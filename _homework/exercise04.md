@@ -9,4 +9,4 @@ nav_order: 4
 
 # Problem set 04 <br/> Divergence and static equilibrium
 
-You can download this problem set [here](exercise_04_students.pdf).
+You can download this problem set [here](exercise_04_students.pdf). Please find the solutions to this problem set [here](exercise_04_solutions.pdf).
