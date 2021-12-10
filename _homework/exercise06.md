@@ -9,4 +9,4 @@ nav_order: 6
 
 # Problem set 06 <br/> Stress invariants
 
-You can download this problem set [here](exercise_06_students.pdf).
+You can download this problem set [here](exercise_06_students.pdf). Please find the solutions to this problem set [here](exercise_06_solutions.pdf).
