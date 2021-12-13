@@ -1,8 +1,8 @@
 ---
 layout: default
-title: "Chapter 12 [Jan. 24-28]"
+title: "Chapter 12 [Jan. 31-Feb. 4]"
 parent: Lecture
-date: 2021-10-17
+date: 2021-12-13
 categories: lecture
 author: Lars Pastewka
 nav_order: 12
@@ -11,7 +11,7 @@ nav_order: 12
 
 <h2 class='chapterHead'><span class='titlemark'>Chapter 12</span><br /><a id='x1-100012'></a>Brittle failure</h2>
 <h3 class='sectionHead'><span class='titlemark'>12.1 </span> <a id='x1-200012.1'></a>Stress near a crack tip</h3>
-<!-- l. 5 --><p class='noindent'><a href='https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=e30ac1a6-b801-465b-aedf-acb9015b0c7d' class='url'><span class='cmtt-12'>https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=e30ac1a6-b801-465b-aedf-acb9015b0c7d</span></a>
+<!-- l. 5 --><p class='noindent'><a class='url' href='https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=e30ac1a6-b801-465b-aedf-acb9015b0c7d'><span class='cmtt-12'>https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=e30ac1a6-b801-465b-aedf-acb9015b0c7d</span></a>
 </p><!-- l. 7 --><p class='indent'> We now look at brittle fracture. The theory for brittle fracture is developed in
 the framework of a plane problem, i.e. we assume that our crack is infinitely
 extended into one direction. We need to introduce a couple of mathematical tricks
@@ -24,25 +24,25 @@ tip.
 </p><!-- l. 11 --><p class='noindent'>
 </p>
 <h4 class='subsectionHead'><span class='titlemark'>12.1.1 </span> <a id='x1-300012.1.1'></a>Airy stress function</h4>
-<!-- l. 14 --><p class='noindent'>First, we invoke Hooke’s law (in plane strain/stress), \begin{equation} \varepsilon _{ij} = \frac{1}{E} [(1+\nu )\sigma _{ij} - \nu \delta _{ij} \sigma _{kk}]. \end{equation}
-Using the additionalplane condition, \begin{equation} \sigma _{yy} = \nu (\sigma _{xx} + \sigma _{zz}), \end{equation}
-Hooke’s law itself becomes \begin{align} \label{eq:PlanestrainHookes} \varepsilon _{xx} &amp;= \frac{1+\nu }{E} [(1-\nu )\sigma _{xx} - \nu \sigma _{yy}] \\ \varepsilon _{yy} &amp;= \frac{1+\nu }{E} [(1-\nu )\sigma _{yy} - \nu \sigma _{xx}] \\ \varepsilon _{xy} &amp;= \frac{1}{2G} \sigma _{xy} = \frac{1+\nu }{E} \sigma _{xy} \end{align}
+<!-- l. 14 --><p class='noindent'>First, we invoke Hooke’s law (in plane strain/stress), \begin {equation} \varepsilon _{ij} = \frac {1}{E} [(1+\nu )\sigma _{ij} - \nu \delta _{ij} \sigma _{kk}]. \end {equation}
+Using the additionalplane condition, \begin {equation} \sigma _{yy} = \nu (\sigma _{xx} + \sigma _{zz}), \end {equation}
+Hooke’s law itself becomes \begin {align} \label {eq:PlanestrainHookes} \varepsilon _{xx} &amp;= \frac {1+\nu }{E} [(1-\nu )\sigma _{xx} - \nu \sigma _{yy}] \\ \varepsilon _{yy} &amp;= \frac {1+\nu }{E} [(1-\nu )\sigma _{yy} - \nu \sigma _{xx}] \\ \varepsilon _{xy} &amp;= \frac {1}{2G} \sigma _{xy} = \frac {1+\nu }{E} \sigma _{xy} \end {align}
 </p><!-- l. 29 --><p class='indent'> under plane strain conditions. We have just eliminated reference to \(\sigma _{zz}\) and \(\varepsilon _{zz}\) from
 the equations. Inserting Hooke’s law into the compatibility condition,
-\begin{equation} \frac{\partial ^2 \varepsilon _{xx}}{\partial z^2} + \frac{\partial ^2 \varepsilon _{zz}}{\partial x^2} = 2\ \frac{\partial ^2 \varepsilon _{xz}}{\partial x \partial z}, \end{equation}
-yields \begin{equation} \label{eq:Compatibilitystresses} (1-\nu ) \left [\frac{\partial ^2 \sigma _{xx}}{\partial y^2} + \frac{\partial ^2 \sigma _{yy}}{\partial x^2}\right ] - \nu \left [\frac{\partial ^2 \sigma _{xx}}{\partial x^2} + \frac{\partial ^2 \sigma _{yy}}{\partial y^2}\right ] = 2 \frac{\partial ^2 \sigma _{xy}}{\partial x \partial y}, \end{equation}
+\begin {equation} \frac {\partial ^2 \varepsilon _{xx}}{\partial z^2} + \frac {\partial ^2 \varepsilon _{zz}}{\partial x^2} = 2\ \frac {\partial ^2 \varepsilon _{xz}}{\partial x \partial z}, \end {equation}
+yields \begin {equation} \label {eq:Compatibilitystresses} (1-\nu ) \left [\frac {\partial ^2 \sigma _{xx}}{\partial y^2} + \frac {\partial ^2 \sigma _{yy}}{\partial x^2}\right ] - \nu \left [\frac {\partial ^2 \sigma _{xx}}{\partial x^2} + \frac {\partial ^2 \sigma _{yy}}{\partial y^2}\right ] = 2 \frac {\partial ^2 \sigma _{xy}}{\partial x \partial y}, \end {equation}
 the compatibility condition for the stresses.
 </p><!-- l. 40 --><p class='indent'> We now use a mathematical trick to solve the equations of elastic equilibrium.
 We define the <span class='cmti-12'>Airy stress function</span> \(\phi (x,y)\), that gives the stresses (in Cartesian
-coordinates) as \begin{align} \label{eqn:airyxx} \sigma _{xx} &amp;= \frac{\partial ^2 \phi }{\partial y^2} \equiv [\nabla (\nabla \phi )]_{yy}, \\ \label{eqn:airyzz} \sigma _{yy} &amp;= \frac{\partial ^2 \phi }{\partial x^2} \equiv [\nabla (\nabla \phi )]_{xx},\\ \label{eqn:airyxz} \sigma _{xy} &amp;= -\frac{\partial ^2 \phi }{\partial x \partial y} \equiv [\nabla (\nabla \phi )]_{xy} \end{align}
+coordinates) as \begin {align} \label {eqn:airyxx} \sigma _{xx} &amp;= \frac {\partial ^2 \phi }{\partial y^2} \equiv [\nabla (\nabla \phi )]_{yy}, \\ \label {eqn:airyzz} \sigma _{yy} &amp;= \frac {\partial ^2 \phi }{\partial x^2} \equiv [\nabla (\nabla \phi )]_{xx},\\ \label {eqn:airyxz} \sigma _{xy} &amp;= -\frac {\partial ^2 \phi }{\partial x \partial y} \equiv [\nabla (\nabla \phi )]_{xy} \end {align}
 </p><!-- l. 50 --><p class='indent'> (Note that the first \(\nabla \) is the gradient of the vector field \(\nabla \phi \), not the divergence!
-Hence \(\nabla (\nabla \phi )\) is a second order tensor with components \([\nabla (\nabla \phi )]_{ij}=\phi _{,ij}\)!) Equation \begin{equation} \frac{\partial \sigma _{xx}}{\partial x} + \frac{\partial \sigma _{xz}}{\partial z} = 0 \end{equation}
-becomes \begin{equation} \label{eqn:elastic_equi_airy} \frac{\partial ^3 \phi }{\partial x \partial y^2} - \frac{\partial ^3 \phi }{\partial x \partial y^2} = 0 \end{equation}
+Hence \(\nabla (\nabla \phi )\) is a second order tensor with components \([\nabla (\nabla \phi )]_{ij}=\phi _{,ij}\)!) Equation \begin {equation} \frac {\partial \sigma _{xx}}{\partial x} + \frac {\partial \sigma _{xz}}{\partial z} = 0 \end {equation}
+becomes \begin {equation} \label {eqn:elastic_equi_airy} \frac {\partial ^3 \phi }{\partial x \partial y^2} - \frac {\partial ^3 \phi }{\partial x \partial y^2} = 0 \end {equation}
 and is automatically fulfilled! The same holds for the second equation of the
 elastostatic equilibrium condition. We can now insert Eqs. \eqref{eqn:airyxx} to
 \eqref{eqn:airyxz} into the compatibility condition Eq. \eqref{eq:Compatibilitystresses}
-to give \begin{equation} \label{eq:compatibilityairy} (1-\nu )\left [\frac{\partial ^2 }{\partial y^2} \frac{\partial ^2 \phi }{\partial y^2} + \frac{\partial ^2 }{\partial x^2} \frac{\partial ^2 \phi }{\partial x^2}\right ] - \nu \left [\frac{\partial ^2 }{\partial x^2} \frac{\partial ^2 \phi }{\partial y^2} + \frac{\partial ^2}{\partial y^2} \frac{\partial ^2 \phi }{\partial x^2} \right ] + 2 \frac{\partial ^2}{\partial x \partial y} \frac{\partial ^2 \phi }{\partial x \partial y} = 0, \end{equation}
-which can be rearranged to \begin{equation} \label{eq:compatibilityairyrearr} \frac{\partial ^4 \phi }{\partial x^4} + 2\frac{\partial ^4 \phi }{\partial x^2 \partial y^2} + \frac{\partial ^4 \phi }{\partial y^4} = \left (\frac{\partial ^2}{\partial x^2} + \frac{\partial ^2}{\partial y^2}\right )\left [\left (\frac{\partial ^2}{\partial x^2} + \frac{\partial ^2}{\partial y^2}\right ) \phi \right ] = \nabla ^4 \phi = 0 \end{equation}
+to give \begin {equation} \label {eq:compatibilityairy} (1-\nu )\left [\frac {\partial ^2 }{\partial y^2} \frac {\partial ^2 \phi }{\partial y^2} + \frac {\partial ^2 }{\partial x^2} \frac {\partial ^2 \phi }{\partial x^2}\right ] - \nu \left [\frac {\partial ^2 }{\partial x^2} \frac {\partial ^2 \phi }{\partial y^2} + \frac {\partial ^2}{\partial y^2} \frac {\partial ^2 \phi }{\partial x^2} \right ] + 2 \frac {\partial ^2}{\partial x \partial y} \frac {\partial ^2 \phi }{\partial x \partial y} = 0, \end {equation}
+which can be rearranged to \begin {equation} \label {eq:compatibilityairyrearr} \frac {\partial ^4 \phi }{\partial x^4} + 2\frac {\partial ^4 \phi }{\partial x^2 \partial y^2} + \frac {\partial ^4 \phi }{\partial y^4} = \left (\frac {\partial ^2}{\partial x^2} + \frac {\partial ^2}{\partial y^2}\right )\left [\left (\frac {\partial ^2}{\partial x^2} + \frac {\partial ^2}{\partial y^2}\right ) \phi \right ] = \nabla ^4 \phi = 0 \end {equation}
 The conditions of elastostatic equilibrium and the compatibility condition are all
 
 
@@ -71,42 +71,42 @@ boundary conditions of the problem.
 </p><!-- l. 80 --><p class='indent'> Note that \(z\) is a complex variable that contains the \(x\) and \(y\)-position as its real
 and imaginary part, \(z=x+iy\), and <span class='cmti-12'>not </span>the \(z\)-coordinate. Likewise, the function \(Z(z)\) is
 complex valued. Following common notation, we denote its integrals by
-\begin{equation} \bar{\bar{Z}}_{,z} = \bar{Z} \quad \text{and}\quad \bar{Z}_{,z} = Z. \end{equation}
-Westergaard defined the Airy stress function as \begin{equation} \label{eqn:Westergaard} \phi (x, y) = \Re \left \{\bar{\bar{Z}}(x+iy)\right \} + y \Im \left \{\bar{Z}(x+iy)\right \} \end{equation}
+\begin {equation} \bar {\bar {Z}}_{,z} = \bar {Z} \quad \text {and}\quad \bar {Z}_{,z} = Z. \end {equation}
+Westergaard defined the Airy stress function as \begin {equation} \label {eqn:Westergaard} \phi (x, y) = \Re \left \{\bar {\bar {Z}}(x+iy)\right \} + y \Im \left \{\bar {Z}(x+iy)\right \} \end {equation}
 where \(\Re \) and \(\Im \) denote the real and imaginary part of a complex number,
 respectively. This Airy stress function fulfills the biharmonic equation,
 Eq. \eqref{eq:compatibilityairyrearr}, for any arbitrary function \(Z(z)\), as we will show
 below.
 </p><!-- l. 94 --><p class='indent'> We will now derive the expressions for the stresses. We first note that since \(Z(z)\) is
-a function of a complex variable, it satisfies the Cauchy-Riemann conditions, \begin{align} \Re Z_{,z} &amp;= \left (\Re Z\right )_{,x} = \left (\Im Z\right )_{,y} \\ \Im Z_{,z} &amp;= \left (\Im Z\right )_{,x} = -\left (\Re Z\right )_{,y}, \end{align}
-</p><!-- l. 99 --><p class='indent'> which implies that \begin{align} \label{eqn:laplaceRe} \nabla ^2 \left (\Re Z\right ) &amp;= \left (\Re Z\right )_{,xx} + \left (\Re Z\right )_{,yy} = 0 \\ \nabla ^2 \left (\Im Z\right ) &amp;= \left (\Im Z\right )_{,xx} + \left (\Im Z\right )_{,yy} = 0, \\ \end{align}
+a function of a complex variable, it satisfies the Cauchy-Riemann conditions, \begin {align} \Re Z_{,z} &amp;= \left (\Re Z\right )_{,x} = \left (\Im Z\right )_{,y} \\ \Im Z_{,z} &amp;= \left (\Im Z\right )_{,x} = -\left (\Re Z\right )_{,y}, \end {align}
+</p><!-- l. 99 --><p class='indent'> which implies that \begin {align} \label {eqn:laplaceRe} \nabla ^2 \left (\Re Z\right ) &amp;= \left (\Re Z\right )_{,xx} + \left (\Re Z\right )_{,yy} = 0 \\ \nabla ^2 \left (\Im Z\right ) &amp;= \left (\Im Z\right )_{,xx} + \left (\Im Z\right )_{,yy} = 0, \\ \end {align}
 </p><!-- l. 117 --><p class='indent'> i.e. the real and imaginary parts of the complex function \(Z(z)\) fulfill the Laplace
 equation.
 
 
 
 </p>
-<div id='shaded*-1' class='framedenv'>
-<!-- l. 119 --><p class='noindent'><span class='underline'><span class='cmbx-12'>Note:</span> </span><span class='cmti-12'>Cauchy-Riemann equations – </span>The Cauchy-Riemann equations are a
+<div class='framedenv' id='shaded*-1'>
+<!-- l. 119 --><p class='noindent'><span class='underline'><span class='cmbx-12'>Note:</span></span> <span class='cmti-12'>Cauchy-Riemann equations – </span>The Cauchy-Riemann equations are a
 cornerstone of complex analysis. They hold for any differential function of a
 complex variable. Such functions are also called <span class='cmti-12'>holomorphic</span>. Given \(f(z)=u(z) + iv(z)\) (hence \(u=\Re f\) and \(v=\Im f\))
-with \(z=x+iy\), we can formally write the derivative as \begin{equation} f'(z_0) = \lim \limits _{w\in \mathcal{C},w\to 0} \frac{f(z_0+w)-f(z_0)}{w} \end{equation}
+with \(z=x+iy\), we can formally write the derivative as \begin {equation} f'(z_0) = \lim \limits _{w\in \mathcal {C},w\to 0} \frac {f(z_0+w)-f(z_0)}{w} \end {equation}
 as the limit of the difference quotient. For real numbers, we can approach \(z_0\)
 from the left or the right and both limits must equal if the function is
 differentiable. In the complex plane, we can approach from any direction in two
 dimensions. For example, we can compute the derivative along the real (\(x\)-)axis, \(w=x\):
-\begin{equation} f'(z_0) = \lim \limits _{x\in \mathcal{R},x\to 0} \frac{f(z_0+x)-f(z_0)}{x} = \frac{\partial u}{\partial x} + i\frac{\partial v}{\partial x} \end{equation}
+\begin {equation} f'(z_0) = \lim \limits _{x\in \mathcal {R},x\to 0} \frac {f(z_0+x)-f(z_0)}{x} = \frac {\partial u}{\partial x} + i\frac {\partial v}{\partial x} \end {equation}
 We can equally well compute the derivative along the imaginary (\(y\)-)axis, \(w=iy\), which
-gives \begin{equation} f'(z_0) = \lim \limits _{y\in \mathcal{R},y\to 0} \frac{f(z_0+iy)-f(z_0)}{iy} = -i\frac{\partial u}{\partial y} + \frac{\partial v}{\partial y}. \end{equation}
-Since both expressions have to be equal, we find \begin{equation} \frac{\partial u}{\partial x}=\frac{\partial v}{\partial y} \quad \text{and}\quad \frac{\partial u}{\partial y}=-\frac{\partial v}{\partial x}, \end{equation}
+gives \begin {equation} f'(z_0) = \lim \limits _{y\in \mathcal {R},y\to 0} \frac {f(z_0+iy)-f(z_0)}{iy} = -i\frac {\partial u}{\partial y} + \frac {\partial v}{\partial y}. \end {equation}
+Since both expressions have to be equal, we find \begin {equation} \frac {\partial u}{\partial x}=\frac {\partial v}{\partial y} \quad \text {and}\quad \frac {\partial u}{\partial y}=-\frac {\partial v}{\partial x}, \end {equation}
 the Cauchy-Riemann equations. </p></div>
-<!-- l. 151 --><p class='indent'> Now we differentiate \(\phi \) with respect to \(x\) and \(y\). This yields \begin{align} \phi _{,x} &amp;= \left (\Re \bar{\bar{Z}}\right )_{,x} + y\left (\Im \bar{Z}\right )_{,x} = \Re \bar{\bar{Z}}_{,z} + y \Im \bar{Z}_{,z} = \Re \bar{Z} + y \Im Z \\ \phi _{,y} &amp;= \left (\Re \bar{\bar{Z}}\right )_{,y} + \left (y \Im \bar{Z}\right )_{,y} = -\Im \bar{\bar{Z}}_{,z} + \Im \bar{Z} + y \Re \bar{Z}_{,z} = y \Re Z \end{align}
-</p><!-- l. 169 --><p class='indent'> for the first derivatives and \begin{align} \phi _{,xx} &amp;= \left (\Re \bar{Z}\right )_{,x} + y \left (\Im Z\right )_{,x} = \Re \bar{Z}_{,z} + y \Im Z_{,z} = \Re Z + y \Im Z_{,z} \\ \phi _{,yy} &amp;= \left (y\Re Z\right )_{,y} = \Re Z + y \left (\Re Z\right )_{,y} = \Re Z - y \Im Z_{,z} \\ \phi _{,xy} &amp;= \left (\Re \bar{Z}\right )_{,y} + \left (y \Im Z\right )_{,y} = -\Im \bar{Z}_{,z} + \Im Z + y \Re Z_{,z} = y \Re Z_{,z} \end{align}
-</p><!-- l. 193 --><p class='indent'> for the second derivatives. In summary, we obtain \begin{align} \label{eqn:Westergaardstressxx} \sigma _{xx} &amp;= \phi _{,yy} = \Re Z - y \Im Z_{,z} \\ \label{eqn:Westergaardstressyy} \sigma _{yy} &amp;= \phi _{,xx} = \Re Z + y \Im Z_{,z} \\ \label{eqn:Westergaardstresszz} \sigma _{xy} &amp;= -\phi _{,xy} = -y \Re Z_{,z} \end{align}
+<!-- l. 151 --><p class='indent'> Now we differentiate \(\phi \) with respect to \(x\) and \(y\). This yields \begin {align} \phi _{,x} &amp;= \left (\Re \bar {\bar {Z}}\right )_{,x} + y\left (\Im \bar {Z}\right )_{,x} = \Re \bar {\bar {Z}}_{,z} + y \Im \bar {Z}_{,z} = \Re \bar {Z} + y \Im Z \\ \phi _{,y} &amp;= \left (\Re \bar {\bar {Z}}\right )_{,y} + \left (y \Im \bar {Z}\right )_{,y} = -\Im \bar {\bar {Z}}_{,z} + \Im \bar {Z} + y \Re \bar {Z}_{,z} = y \Re Z \end {align}
+</p><!-- l. 169 --><p class='indent'> for the first derivatives and \begin {align} \phi _{,xx} &amp;= \left (\Re \bar {Z}\right )_{,x} + y \left (\Im Z\right )_{,x} = \Re \bar {Z}_{,z} + y \Im Z_{,z} = \Re Z + y \Im Z_{,z} \\ \phi _{,yy} &amp;= \left (y\Re Z\right )_{,y} = \Re Z + y \left (\Re Z\right )_{,y} = \Re Z - y \Im Z_{,z} \\ \phi _{,xy} &amp;= \left (\Re \bar {Z}\right )_{,y} + \left (y \Im Z\right )_{,y} = -\Im \bar {Z}_{,z} + \Im Z + y \Re Z_{,z} = y \Re Z_{,z} \end {align}
+</p><!-- l. 193 --><p class='indent'> for the second derivatives. In summary, we obtain \begin {align} \label {eqn:Westergaardstressxx} \sigma _{xx} &amp;= \phi _{,yy} = \Re Z - y \Im Z_{,z} \\ \label {eqn:Westergaardstressyy} \sigma _{yy} &amp;= \phi _{,xx} = \Re Z + y \Im Z_{,z} \\ \label {eqn:Westergaardstresszz} \sigma _{xy} &amp;= -\phi _{,xy} = -y \Re Z_{,z} \end {align}
 </p><!-- l. 202 --><p class='indent'> for the components of the stress tensor. Note that the Ansatz
 Eq. \eqref{eqn:Westergaard} fulfills the biharmonic equation. We know from summing
 Eqs. \eqref{eqn:Westergaardstressxx} and \eqref{eqn:Westergaardstressyy} that
-\begin{equation} \psi \equiv \left (\frac{\partial ^2}{\partial x^2} + \frac{\partial ^2}{\partial y^2}\right )\phi = 2\Re Z, \end{equation}
+\begin {equation} \psi \equiv \left (\frac {\partial ^2}{\partial x^2} + \frac {\partial ^2}{\partial y^2}\right )\phi = 2\Re Z, \end {equation}
 hence by virtue of Eq. \eqref{eqn:laplaceRe}, \(\nabla ^4\phi =\nabla ^2\psi =0\) is fulfilled for <span class='cmti-12'>any </span>function \(Z(x+iy)\).
 The utility of the Westergaard function over the Airy stress function is
 hence that we have eliminated the need to explicitly fulfill the biharmonic
@@ -117,45 +117,45 @@ equation.
 <!-- l. 210 --><p class='noindent'>We here discuss only mode I fracture, i.e. crack opening displacement. Consider a
 plane (strain or stress) situation in which we can derive the stress field from the
 Westergaard stress function \(Z(x+iy)\), Sec. <a href='#x1-400012.1.2'>12.1.2<!-- tex4ht:ref: sec:Westergaard --></a>. <a href='#XWestergaard:1933'>Westergaard</a> (<a href='#XWestergaard:1933'>1933</a>) made the Ansatz
-\begin{equation} Z(z) = \frac{\sigma _\infty }{\sqrt{1 - (a/z)^2}} \end{equation}
+\begin {equation} Z(z) = \frac {\sigma _\infty }{\sqrt {1 - (a/z)^2}} \end {equation}
 
 
 
 for the stress function of a central crack in a large sheet. Here \(2a\) is the length of the
 crack and \(\sigma _\infty \) the stress at infinity. The derivative of the stress function is
-\begin{equation} \label{eqn:Westergaard_derivative} Z_{,z} = \frac{\sigma _\infty }{\sqrt{z^2 - a^2}} \left [ 1 - \frac{1}{1-(a/z)^2} \right ] \end{equation}
-and its integral is \begin{equation} \label{eqn:Westergaard_integral} \bar{Z} = \sigma _\infty \sqrt{z^2 - a^2}. \end{equation}
-</p><!-- l. 242 --><p class='indent'> Let us first look in the plane of the crack where \(y=0\), \(z=x\) and hence \begin{equation} Z(x) = \frac{\sigma _\infty }{\sqrt{1 - (a/x)^2}}. \end{equation}
+\begin {equation} \label {eqn:Westergaard_derivative} Z_{,z} = \frac {\sigma _\infty }{\sqrt {z^2 - a^2}} \left [ 1 - \frac {1}{1-(a/z)^2} \right ] \end {equation}
+and its integral is \begin {equation} \label {eqn:Westergaard_integral} \bar {Z} = \sigma _\infty \sqrt {z^2 - a^2}. \end {equation}
+</p><!-- l. 242 --><p class='indent'> Let us first look in the plane of the crack where \(y=0\), \(z=x\) and hence \begin {equation} Z(x) = \frac {\sigma _\infty }{\sqrt {1 - (a/x)^2}}. \end {equation}
 For \(|x|&lt;a\) (inside the crack) the function is imaginary but for \(|x|&gt;a\) (outside the crack) the
 function is real. The stresses in the plane of the crack are given by \(\sigma _{xx}=\Re Z\), \(\sigma _{yy}=\Re Z\) and \(\tau _{xy}=0\). Hence
 they vanish inside the crack. This is the condition for the crack faces which are
 free surfaces and therefore tractionless. Note that \(\sigma _{xx}\) does not need to vanish from
 this condition but does here.
 </p><!-- l. 249 --><p class='indent'> Outside the crack (but in the plane of the crack, \(y=0\)), the stress is given by
-\begin{equation} \sigma _{xx} = \sigma _{yy} = \frac{\sigma _\infty }{\sqrt{1 - (a/x)^2}}. \end{equation}
+\begin {equation} \sigma _{xx} = \sigma _{yy} = \frac {\sigma _\infty }{\sqrt {1 - (a/x)^2}}. \end {equation}
 It diverges as \(x\to a\) from above and approaches the hydrostatic state \(\sigma _{xx}=\sigma _{yy}=\sigma _\infty \) as \(x\to \infty \).
 </p><!-- l. 255 --><p class='indent'> We will now focus on the crack line and switch to the variable \(z^*=z-a\). The stress
-function becomes \begin{equation} Z(z^*) = \frac{\sigma _\infty (z^*+a)}{\sqrt{(z^* + a)^2 - a^2}} = \frac{\sigma _\infty (z^*+a)}{\sqrt{(z^*)^2 + 2az^*}} \approx \sigma _\infty \sqrt{\frac{a}{2z^*}} \end{equation}
-where the \(\approx \) sign is valid for small \(z^*\). We write this expression as \begin{equation} \label{eqn:stress_intensity} Z(z^*) = \frac{K_I}{\sqrt{2\pi z^*}} \quad \text{with}\quad K_I = \sigma _\infty \sqrt{\pi a}. \end{equation}
+function becomes \begin {equation} Z(z^*) = \frac {\sigma _\infty (z^*+a)}{\sqrt {(z^* + a)^2 - a^2}} = \frac {\sigma _\infty (z^*+a)}{\sqrt {(z^*)^2 + 2az^*}} \approx \sigma _\infty \sqrt {\frac {a}{2z^*}} \end {equation}
+where the \(\approx \) sign is valid for small \(z^*\). We write this expression as \begin {equation} \label {eqn:stress_intensity} Z(z^*) = \frac {K_I}{\sqrt {2\pi z^*}} \quad \text {with}\quad K_I = \sigma _\infty \sqrt {\pi a}. \end {equation}
 Note that we have absorbed both the stress at infinity \(\sigma _\infty \) and the crack length \(a\) into
 a single constant, the <span class='cmti-12'>stress intensity factor </span>(for mode I fracture), \(K_I\). The stress
 field near the crack tip depends only on \(K_I\), not on \(\sigma _\infty \) and \(a\) individually and hence the
 loading condition and geometry, independently.
 </p><!-- l. 275 --><p class='indent'> To derive the component of the stress tensor, we switch to cylindrical
-coordinates and write \(z^*=r e^{i\theta }\), yielding \begin{equation} Z(r, \theta ) = \frac{K_I}{\sqrt{2\pi r}} e^{-i\theta /2}. \end{equation}
+coordinates and write \(z^*=r e^{i\theta }\), yielding \begin {equation} Z(r, \theta ) = \frac {K_I}{\sqrt {2\pi r}} e^{-i\theta /2}. \end {equation}
 In order to obtain the full stress field, we also need the expression for the
 derivative of the Westergaard stress function near the crack tip. From
-Eq. \eqref{eqn:Westergaard˙derivative}, we find \begin{equation} Z_{,z} \approx \frac{\sigma _\infty }{\sqrt{2az^*}} \left [ 1-\frac{2az^* + a^2}{2az^*} \right ] = -\frac{\sigma _\infty a^2}{(2az^*)^{3/2}} = -\frac{K_I \pi }{(2\pi z^*)^{3/2}} = -\frac{K_I}{\sqrt{8\pi r}} e^{-3i\theta /2}. \end{equation}
+Eq. \eqref{eqn:Westergaard˙derivative}, we find \begin {equation} Z_{,z} \approx \frac {\sigma _\infty }{\sqrt {2az^*}} \left [ 1-\frac {2az^* + a^2}{2az^*} \right ] = -\frac {\sigma _\infty a^2}{(2az^*)^{3/2}} = -\frac {K_I \pi }{(2\pi z^*)^{3/2}} = -\frac {K_I}{\sqrt {8\pi r}} e^{-3i\theta /2}. \end {equation}
 We now obtain the individual components of the stress tensor from
-Eq. \eqref{eqn:Westergaardstressxx}-\eqref{eqn:Westergaardstresszz}: \begin{align} \sigma _{xx} &amp;= \Re Z - y \Im Z_{,z} = \frac{K_I}{\sqrt{2\pi r}} \cos \frac{\theta }{2} \left (1 - \sin \frac{\theta }{2} \sin \frac{3\theta }{2}\right ) \\ \sigma _{yy} &amp;= \Re Z + y \Im Z_{,z} = \frac{K_I}{\sqrt{2\pi r}} \cos \frac{\theta }{2} \left (1 + \sin \frac{\theta }{2} \sin \frac{3\theta }{2}\right ) \\ \sigma _{xy} &amp;= -y \Re Z_{,z} = \frac{K_I}{\sqrt{2\pi r}} \cos \frac{\theta }{2} \sin \frac{\theta }{2} \cos \frac{3\theta }{2} \end{align}
+Eq. \eqref{eqn:Westergaardstressxx}-\eqref{eqn:Westergaardstresszz}: \begin {align} \sigma _{xx} &amp;= \Re Z - y \Im Z_{,z} = \frac {K_I}{\sqrt {2\pi r}} \cos \frac {\theta }{2} \left (1 - \sin \frac {\theta }{2} \sin \frac {3\theta }{2}\right ) \\ \sigma _{yy} &amp;= \Re Z + y \Im Z_{,z} = \frac {K_I}{\sqrt {2\pi r}} \cos \frac {\theta }{2} \left (1 + \sin \frac {\theta }{2} \sin \frac {3\theta }{2}\right ) \\ \sigma _{xy} &amp;= -y \Re Z_{,z} = \frac {K_I}{\sqrt {2\pi r}} \cos \frac {\theta }{2} \sin \frac {\theta }{2} \cos \frac {3\theta }{2} \end {align}
 </p><!-- l. 297 --><p class='indent'> Hence the stress field <span class='cmti-12'>near </span>the crack tip is entirely described by the stress
-intensity factor \(K_I\). \(K_I\) is measured in (weird) units of Pa\(\sqrt{\text{m}}\). The \(I\) indicates that this is
+intensity factor \(K_I\). \(K_I\) is measured in (weird) units of Pa\(\sqrt {\text {m}}\). The \(I\) indicates that this is
 the stress intensity factor for mode \(I\) fracture. \(K_{II}\) and \(K_{III}\) are related quatities for the
 two other fracture modes.
 </p><!-- l. 299 --><p class='indent'> Note that the stress intensity factor is the amplitude of the square-root
 singularity of the stress field at the crack tip. It is often defined from the stress
-field itself as the limit \begin{align} \label{eq:KI} K_I &amp;= \lim \limits _{r\to 0} \sqrt{2\pi r} \sigma _{yy}(r, 0) \\ \label{eq:KII} K_{II} &amp;= \lim \limits _{r\to 0} \sqrt{2\pi r} \sigma _{xy}(r, 0) \\ \label{eq:KIII} K_{III} &amp;= \lim \limits _{r\to 0} \sqrt{2\pi r} \sigma _{yz}(r, 0) \end{align}
-</p><!-- l. 308 --><p class='indent'> where the singularity has been removed by multiplying with \(\sqrt{2\pi r}\). Note that the
+field itself as the limit \begin {align} \label {eq:KI} K_I &amp;= \lim \limits _{r\to 0} \sqrt {2\pi r} \sigma _{yy}(r, 0) \\ \label {eq:KII} K_{II} &amp;= \lim \limits _{r\to 0} \sqrt {2\pi r} \sigma _{xy}(r, 0) \\ \label {eq:KIII} K_{III} &amp;= \lim \limits _{r\to 0} \sqrt {2\pi r} \sigma _{yz}(r, 0) \end {align}
+</p><!-- l. 308 --><p class='indent'> where the singularity has been removed by multiplying with \(\sqrt {2\pi r}\). Note that the
 limit is taken at the angle \(\theta =0\), i.e. along \(y=0\) within the plane of the crack. From
 Eqs. \eqref{eq:KI} to \eqref{eq:KIII} is also clear that only \(K_I\) is nonzero for the
 
@@ -165,23 +165,23 @@ crack geometry that is discussed in this chapter.
 </p><!-- l. 310 --><p class='noindent'>
 </p>
 <h3 class='sectionHead'><span class='titlemark'>12.2 </span> <a id='x1-600012.2'></a>Fracture toughness</h3>
-<!-- l. 312 --><p class='noindent'><a href='https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=993c55f0-a6d5-4df9-a1ff-acb9015f614e' class='url'><span class='cmtt-12'>https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=993c55f0-a6d5-4df9-a1ff-acb9015f614e</span></a>
+<!-- l. 312 --><p class='noindent'><a class='url' href='https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=993c55f0-a6d5-4df9-a1ff-acb9015f614e'><span class='cmtt-12'>https://uni-freiburg.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=993c55f0-a6d5-4df9-a1ff-acb9015f614e</span></a>
 </p><!-- l. 314 --><p class='noindent'>
 </p>
 <h4 class='subsectionHead'><span class='titlemark'>12.2.1 </span> <a id='x1-700012.2.1'></a>Displacement field at the crack tip</h4>
 <!-- l. 316 --><p class='noindent'>In order to compute the displacement field near the crack, we first need the
-strain field. As usual, we obtain this from Hooke’s law (in plain stress): \begin{align} \label{eqn:crackstrainxx} \varepsilon _{xx} &amp;\equiv u_{x,x} = \frac{1}{E}\left (\sigma _{xx} - \nu \sigma _{yy}\right ) = \frac{1}{E}\left [(1-\nu ) \Re Z - (1+\nu ) y \Im Z_{,z}\right ] \\ \label{eqn:crackstrainyy} \varepsilon _{yy} &amp;\equiv u_{y,y} = \frac{1}{E}\left (\sigma _{yy} - \nu \sigma _{xx}\right ) = \frac{1}{E}\left [(1-\nu ) \Re Z + (1+\nu ) y \Im Z_{,z}\right ] \\ \label{eqn:crackstrainxy} 2\varepsilon _{xy} &amp;\equiv u_{x,y}+u_{y,x} = 2\frac{1+\nu }{E} \sigma _{xy} = -2\frac{1+\nu }{E} y \Re Z_{,z} \end{align}
-</p><!-- l. 325 --><p class='indent'> Now we use \(Z=\bar{Z}_{,z}\) to express \(\Re Z = \Re \bar{Z}_{,z} = (\Re \bar{Z})_{,x}\) and \(\Im Z_{,z}=(\Im Z)_{,x}\) in Eq. \eqref{eqn:crackstrainxx} to identify
-\begin{equation} u_x = \frac{1}{E}\left [(1-\nu ) \Re \bar{Z} - (1+\nu ) y \Im Z\right ] =\frac{1}{2\mu }\left [\frac{1-\nu }{1+\nu } \Re \bar{Z} - y \Im Z\right ]. \end{equation}
+strain field. As usual, we obtain this from Hooke’s law (in plain stress): \begin {align} \label {eqn:crackstrainxx} \varepsilon _{xx} &amp;\equiv u_{x,x} = \frac {1}{E}\left (\sigma _{xx} - \nu \sigma _{yy}\right ) = \frac {1}{E}\left [(1-\nu ) \Re Z - (1+\nu ) y \Im Z_{,z}\right ] \\ \label {eqn:crackstrainyy} \varepsilon _{yy} &amp;\equiv u_{y,y} = \frac {1}{E}\left (\sigma _{yy} - \nu \sigma _{xx}\right ) = \frac {1}{E}\left [(1-\nu ) \Re Z + (1+\nu ) y \Im Z_{,z}\right ] \\ \label {eqn:crackstrainxy} 2\varepsilon _{xy} &amp;\equiv u_{x,y}+u_{y,x} = 2\frac {1+\nu }{E} \sigma _{xy} = -2\frac {1+\nu }{E} y \Re Z_{,z} \end {align}
+</p><!-- l. 325 --><p class='indent'> Now we use \(Z=\bar {Z}_{,z}\) to express \(\Re Z = \Re \bar {Z}_{,z} = (\Re \bar {Z})_{,x}\) and \(\Im Z_{,z}=(\Im Z)_{,x}\) in Eq. \eqref{eqn:crackstrainxx} to identify
+\begin {equation} u_x = \frac {1}{E}\left [(1-\nu ) \Re \bar {Z} - (1+\nu ) y \Im Z\right ] =\frac {1}{2\mu }\left [\frac {1-\nu }{1+\nu } \Re \bar {Z} - y \Im Z\right ]. \end {equation}
 The expression for \(u_y\) is more complicated because of the explicit \(y\) that shows up in
-the expressions for the strains. It is given by \begin{equation} u_y = \frac{1}{2\mu }\left [\frac{2}{1+\nu } \Im \bar{Z} - y \Re Z\right ]. \end{equation}
+the expressions for the strains. It is given by \begin {equation} u_y = \frac {1}{2\mu }\left [\frac {2}{1+\nu } \Im \bar {Z} - y \Re Z\right ]. \end {equation}
 It is straightforward to verify that from these two expressions we also recover the
 expression for \(\varepsilon _{xy}\).
-</p><!-- l. 336 --><p class='indent'> It is common to replace \(\nu \) with \(\kappa =(3-\nu )/(1+\nu )\). The displacements can then be written as \begin{align} u_x &amp;= \frac{1}{4\mu }\left [(\kappa -1) \Re \bar{Z} - 2y \Im Z\right ] \\ u_y &amp;= \frac{1}{4\mu }\left [(\kappa +1) \Im \bar{Z} - 2y \Re Z\right ]. \end{align}
+</p><!-- l. 336 --><p class='indent'> It is common to replace \(\nu \) with \(\kappa =(3-\nu )/(1+\nu )\). The displacements can then be written as \begin {align} u_x &amp;= \frac {1}{4\mu }\left [(\kappa -1) \Re \bar {Z} - 2y \Im Z\right ] \\ u_y &amp;= \frac {1}{4\mu }\left [(\kappa +1) \Im \bar {Z} - 2y \Re Z\right ]. \end {align}
 </p><!-- l. 342 --><p class='indent'> Since the integral of the Westergaard function near the crack tip is
-\begin{equation} \bar{Z}(z^*) \approx \sigma _\infty \sqrt{2 a z^*} = K_I \sqrt{\frac{2 z^*}{\pi }} = 2K_I \sqrt{\frac{r}{2\pi }} e^{i\theta /2}, \end{equation}
-we can directly write the displacement field in cylindrical coordinates as \begin{align} u_x &amp;= \frac{K_I}{2\mu } \sqrt{\frac{r}{2\pi }} \left [ 2\frac{1-\nu }{1+\nu } \cos \frac{\theta }{2} + \sin ^2 \frac{\theta }{2} \right ]\\ u_y &amp;= \frac{K_I}{2\mu } \sqrt{\frac{r}{2\pi }} \left [ 2\frac{1-\nu }{1+\nu } \cos \frac{\theta }{2} + \sin ^2 \frac{\theta }{2} \right ]. \end{align}
-</p><!-- l. 351 --><p class='indent'> Note that in the plane of the crack (\(y=0\), \(z^*=x\)), the displacement field is given by \begin{align} u_x &amp;= \begin{cases} \frac{K_I}{2\mu } (\kappa -1) \sqrt{\frac{x}{2\pi }} &amp; \text{if}\;x &gt; 0 \\ 0 &amp; \text{if}\;x \leq 0 \end{cases}\\ u_y^+ &amp;= \begin{cases} 0 &amp; \text{if}\;x \geq 0 \\ \frac{K_I}{2\mu } (\kappa +1) \sqrt{-\frac{x}{2\pi }} &amp; \text{if}\;x &lt; 0 \end{cases}. \label{eq:displyat0} \end{align}
+\begin {equation} \bar {Z}(z^*) \approx \sigma _\infty \sqrt {2 a z^*} = K_I \sqrt {\frac {2 z^*}{\pi }} = 2K_I \sqrt {\frac {r}{2\pi }} e^{i\theta /2}, \end {equation}
+we can directly write the displacement field in cylindrical coordinates as \begin {align} u_x &amp;= \frac {K_I}{2\mu } \sqrt {\frac {r}{2\pi }} \left [ 2\frac {1-\nu }{1+\nu } \cos \frac {\theta }{2} + \sin ^2 \frac {\theta }{2} \right ]\\ u_y &amp;= \frac {K_I}{2\mu } \sqrt {\frac {r}{2\pi }} \left [ 2\frac {1-\nu }{1+\nu } \cos \frac {\theta }{2} + \sin ^2 \frac {\theta }{2} \right ]. \end {align}
+</p><!-- l. 351 --><p class='indent'> Note that in the plane of the crack (\(y=0\), \(z^*=x\)), the displacement field is given by \begin {align} u_x &amp;= \begin {cases} \frac {K_I}{2\mu } (\kappa -1) \sqrt {\frac {x}{2\pi }} &amp; \text {if}\;x &gt; 0 \\ 0 &amp; \text {if}\;x \leq 0 \end {cases}\\ u_y^+ &amp;= \begin {cases} 0 &amp; \text {if}\;x \geq 0 \\ \frac {K_I}{2\mu } (\kappa +1) \sqrt {-\frac {x}{2\pi }} &amp; \text {if}\;x &lt; 0 \end {cases}. \label {eq:displyat0} \end {align}
 </p><!-- l. 363 --><p class='indent'> The \(y\)-displacement here is denoted with a little \(+\), \(u_y^+\), to indicate that this is the
 displacement of the top crack face at a position \(y=0^+\), i.e. slightly above \(y=0\). The
 displacement \(u_y^-\) of the bottom crack face is the negative of this values, \(u_y^-=-u_y^+\), for
@@ -210,14 +210,14 @@ works against the stress \(\sigma _{yy}\) right at the crack tip. We now assume 
 crack moves by a distance \(\Delta a\) which we will later take to zero. We assume
 that the stress before the crack has moved is taken to zero quasistatically
 during the crack opening process. The crack faces have opened a distance
-\begin{equation} u_y^+ - u_y^-=2\frac{K_I}{2\mu } (\kappa + 1) \sqrt{\frac{\Delta a - x^*}{2\pi }} \end{equation}
-after the crack has moved by \(\Delta a\). The stress was \begin{equation} \sigma _{yy}=\frac{K_I}{\sqrt{2\pi x^*}} \end{equation}
+\begin {equation} u_y^+ - u_y^-=2\frac {K_I}{2\mu } (\kappa + 1) \sqrt {\frac {\Delta a - x^*}{2\pi }} \end {equation}
+after the crack has moved by \(\Delta a\). The stress was \begin {equation} \sigma _{yy}=\frac {K_I}{\sqrt {2\pi x^*}} \end {equation}
 before the movement of the crack. The work on the crack faces is then \(W=\int dx^* \sigma _{yy} (u_y^+-u_y^-)/2\). (The
 factor \(1/2\) enters because we are taking the stress to zero as the crack faces are
 displacing. Imagine a simple spring with force \(f=kx\) taken from \(x_0\) to \(x=0\). The work
 is \(kx_0^2/2\), equal to the elastic energy of the string at extension \(x_0\).) This gives
-\begin{equation} W(\Delta a) = \frac{K_I^2}{4\pi \mu } (\kappa + 1) \int \limits _0^{\Delta a} \dif x^* \sqrt{\frac{\Delta a - x^*}{x^*}} = \frac{K_I^2}{\mu } \frac{\kappa +1}{8} \Delta a = \frac{K_I^2}{E} \Delta a \end{equation}
-where we have used \(\int _0^1 dx \sqrt{(1-x)/x}=\pi /2\). The energy released per crack length is then \begin{equation} G = \frac{W}{\Delta a} = \frac{K_I^2}{E}. \label{eq:energyreleaserate} \end{equation}
+\begin {equation} W(\Delta a) = \frac {K_I^2}{4\pi \mu } (\kappa + 1) \int \limits _0^{\Delta a} \dif x^* \sqrt {\frac {\Delta a - x^*}{x^*}} = \frac {K_I^2}{\mu } \frac {\kappa +1}{8} \Delta a = \frac {K_I^2}{E} \Delta a \end {equation}
+where we have used \(\int _0^1 dx \sqrt {(1-x)/x}=\pi /2\). The energy released per crack length is then \begin {equation} G = \frac {W}{\Delta a} = \frac {K_I^2}{E}. \label {eq:energyreleaserate} \end {equation}
 \(G\) is called the <span class='cmti-12'>strain energy release rate </span>and has units of energy per area. Note that
 Eq. \eqref{eq:energyreleaserate} is valid for a state of plain strain, which
 has entered through Hooke’s law in Eqs. \eqref{eqn:crackstrainxx} to
@@ -237,18 +237,18 @@ Eq. \eqref{eqn:stress˙intensity}. We see that the stress intensity factor \(K_
 with crack length \(a\); hence there is a critical length \(a_c\) beyond which the crack
 becomes unstable.
 </p><!-- l. 396 --><p class='indent'> As the crack advances it creates new surface area. An advance of the crack
-from length \(a\) to length \(a+\Delta a\) requires the additional energy \(\Delta E_{\text{surf}}=2\gamma \Delta a\). Here, \(\gamma \) is the surface energy
+from length \(a\) to length \(a+\Delta a\) requires the additional energy \(\Delta E_{\text {surf}}=2\gamma \Delta a\). Here, \(\gamma \) is the surface energy
 of the pristine crack surface and the factor of \(2\) enters because a crack has two
-faces. Since we are looking at a plane situation, \(\Delta E_{\text{surf}}\) is an energy per unit
+faces. Since we are looking at a plane situation, \(\Delta E_{\text {surf}}\) is an energy per unit
 length.
 </p><!-- l. 398 --><p class='indent'> Griffith’s fracture criterion now states that the crack advances when
 the energy released from the elastic field (described by the strain energy
 release rate \(G\)) is larger than the energy needed to create a new surface,
-\begin{equation} G&gt;G_c \end{equation}
+\begin {equation} G&gt;G_c \end {equation}
 where \(G_c\) is Griffith’s critical energy release rate. For an ideal brittle crack,
-\begin{equation} G_c=2\gamma , \end{equation}
+\begin {equation} G_c=2\gamma , \end {equation}
 because we only need to “pay” for the new surface with elastic energy. This allows
-us to define a fracture toughness, \(K_{Ic}=\sqrt{E G_c}\), from Griffith’s theory.
+us to define a fracture toughness, \(K_{Ic}=\sqrt {E G_c}\), from Griffith’s theory.
 
 
 

@@ -2,7 +2,7 @@
 layout: default
 title: "Chapter 03 [Nov. 1-5]"
 parent: Lecture
-date: 2021-10-17
+date: 2021-12-13
 categories: lecture
 author: Lars Pastewka
 nav_order: 3
@@ -29,10 +29,12 @@ length (Fig. <a href='#x1-2001r1'>3.1<!-- tex4ht:ref: fig:contforce --></a>).
 
 
 
-<!-- l. 14 --><p class='noindent'> <img src='newFigures/ch3_ContinuousForce-.png' height='329' width='467' alt='PIC' /> <a id='x1-2001r1'></a>
+<!-- l. 14 --><p class='noindent'> <img width='467' src='newFigures/ch3_ContinuousForce-.png' height='329' alt='PIC' /> <a id='x1-2001r1'></a>
 <a id='x1-2002'></a>
+</p><!-- l. 16 --><p class='noindent'>figure(a) Free body diagram for a beam with intermediate cut. (b) Reaction
+forces and moments as functions of coordinate \(x\).
 </p>
-<figcaption class='caption'><span class='id'>Figure 3.1:: </span><span class='content'>(a) Free body diagram for a beam with intermediate cut. (b)
+<figcaption class='caption'><span class='id'>Figure 3.1: </span><span class='content'>(a) Free body diagram for a beam with intermediate cut. (b)
 Reaction forces and moments as functions of coordinate \(x\). </span></figcaption><!-- tex4ht:label?: x1-2001r3.1 -->
 
 
@@ -41,7 +43,7 @@ Reaction forces and moments as functions of coordinate \(x\). </span></figcaptio
 <!-- l. 20 --><p class='indent'> Let us consider a cut located at the distance \(x\) from the left hinge/wall
 (Fig. <a href='#x1-2001r1'>3.1<!-- tex4ht:ref: fig:contforce --></a>). By balancing forces and moments acting on the left and right
 fragments, it is easy to show that
-</p><!-- l. 29 --><p class='indent'> \begin{equation} \begin{aligned} N(x)&amp;=F/\sqrt{2} \\ Q(x)&amp;=F/\sqrt{2} \\ M(x)&amp;=\frac{F(a-x)}{\sqrt{2}} \end{aligned} \label{eq:continuousbeam} \end{equation}
+</p><!-- l. 29 --><p class='indent'> \begin {equation} \begin {aligned} N(x)&amp;=F/\sqrt {2} \\ Q(x)&amp;=F/\sqrt {2} \\ M(x)&amp;=\frac {F(a-x)}{\sqrt {2}} \end {aligned} \label {eq:continuousbeam} \end {equation}
 </p><!-- l. 31 --><p class='indent'> Therefore, both longitudinal and shear forces are constant functions
 of the coordinate \(x\), while moment linearly decreases with an increase in
 \(x\).
@@ -54,7 +56,7 @@ learn how to search for internal forces without exact knowledge of the reaction
 forces and move towards governing equation of continuum mechanics in the next
 Chapter.
 </p>
-<div class='framedenv' id='shaded*-1'>
+<div id='shaded*-1' class='framedenv'>
 <!-- l. 39 --><p class='noindent'><span class='underline'><span class='cmbx-12'>Note:</span></span> In our next derivations, we will heavily rely on a very useful mathematical
 concept of Taylor expansion of the function. If we have arbitrary function \(f(x)\), then
 we can try to approximate it in the vicinity of point \(x_0\) using a polynomial function.
@@ -63,8 +65,8 @@ function in the point \(x_0\). We will skip the strict mathematical discussion o
 necessary conditions and restrictions on function \(f\) and value of \(\Delta x\), and just claim
 that for a small enough \(\Delta x\) and well-behaved function \(f\), the Taylor expansion
 provides a good approximation of \(f\). For example, the second order approximation
-of \(f(x+\Delta x)\) can be expressed as \begin{equation} f(x_0+\Delta x)=f(x_0)+\Delta x f'(x_0)+ \frac{1}{2}\Delta x^2 f''(x_0)+O(\Delta x^3) \end{equation}
-In shorter form the general Taylor expansion can be written as \begin{equation} f(x_0+\Delta x)=\sum _{i=0}^{\infty }\frac{1}{n!}f^{(i)}(x_0)\Delta x^i \end{equation}
+of \(f(x+\Delta x)\) can be expressed as \begin {equation} f(x_0+\Delta x)=f(x_0)+\Delta x f'(x_0)+ \frac {1}{2}\Delta x^2 f''(x_0)+O(\Delta x^3) \end {equation}
+In shorter form the general Taylor expansion can be written as \begin {equation} f(x_0+\Delta x)=\sum _{i=0}^{\infty }\frac {1}{n!}f^{(i)}(x_0)\Delta x^i \end {equation}
 Note, that \(f^{(i)}\) means \(i-\)th derivative of the function, while \(\Delta x^i\) is a regular power. </p></div>
 <figure class='figure'>
 
@@ -74,10 +76,12 @@ Note, that \(f^{(i)}\) means \(i-\)th derivative of the function, while \(\Delta
 
 
 
-<!-- l. 57 --><p class='noindent'> <img src='newFigures/ch3_DistributedLoad-.png' height='412' width='585' alt='PIC' /> <a id='x1-3001r2'></a>
+<!-- l. 57 --><p class='noindent'> <img width='585' src='newFigures/ch3_DistributedLoad-.png' height='412' alt='PIC' /> <a id='x1-3001r2'></a>
 <a id='x1-3002'></a>
+</p><!-- l. 59 --><p class='noindent'>figure(a) A beam subjected to distributed load. (b) Infinitesimal fragment of
+beam and corresponding forces.
 </p>
-<figcaption class='caption'><span class='id'>Figure 3.2:: </span><span class='content'>(a) A beam subjected to distributed load. (b) Infinitesimal
+<figcaption class='caption'><span class='id'>Figure 3.2: </span><span class='content'>(a) A beam subjected to distributed load. (b) Infinitesimal
 fragment of beam and corresponding forces. </span></figcaption><!-- tex4ht:label?: x1-3001r3.2 -->
 
 
@@ -91,13 +95,13 @@ we can use the first order Taylor expansion to find the change in total applied
 force between left and right ends of the selected beam as \(dF=q(x)dx\). Let us now write
 equilibrium equation for the small piece, taking into account that we can
 express the shear force and moment on the right side as \(Q(x+dx)=Q+dQ\) and \(M(x+dx)=M+dM\) respectively.
-\begin{equation} Q(x)+dQ=Q(x)-q(x)dx \end{equation}
-We also can write Taylor expansion of \(Q(x)\) at \(x\) as \begin{equation} Q(x)+dQ=Q(x)+\frac{dQ}{dx}dx+... \end{equation}
-By comparing coefficients in these two equations, we conclude that \begin{equation} q(x)=-\frac{dQ}{dx} \end{equation}
+\begin {equation} Q(x)+dQ=Q(x)-q(x)dx \end {equation}
+We also can write Taylor expansion of \(Q(x)\) at \(x\) as \begin {equation} Q(x)+dQ=Q(x)+\frac {dQ}{dx}dx+... \end {equation}
+By comparing coefficients in these two equations, we conclude that \begin {equation} q(x)=-\frac {dQ}{dx} \end {equation}
 This equation establishes the relation between line load and internal shear force in
-the body. To balance moments, we write \begin{equation} M(x)+dM=M(x)+Q(x)dx \end{equation}
-Similar to force, we can obtain the first order Taylor expansion and get \begin{equation} q(x)=-\frac{d^2M}{dx^2} \end{equation}
-</p><!-- l. 84 --><p class='indent'> Therefore, we can express \(Q(x)\) and \(M(x)\) via integration as \begin{equation} \begin{aligned} Q(x)&amp;=-\int{q(x)dx}+C_1 \\ M(x)&amp;=\int{Q(x)dx}+C_2 \end{aligned} \label{eq:integrationmoment} \end{equation}
+the body. To balance moments, we write \begin {equation} M(x)+dM=M(x)+Q(x)dx \end {equation}
+Similar to force, we can obtain the first order Taylor expansion and get \begin {equation} q(x)=-\frac {d^2M}{dx^2} \end {equation}
+</p><!-- l. 84 --><p class='indent'> Therefore, we can express \(Q(x)\) and \(M(x)\) via integration as \begin {equation} \begin {aligned} Q(x)&amp;=-\int {q(x)dx}+C_1 \\ M(x)&amp;=\int {Q(x)dx}+C_2 \end {aligned} \label {eq:integrationmoment} \end {equation}
 Integration constants \(C_1\) and \(C_2\) have to be found from boundary conditions at
 bearings and intermediate conditions at connections between body parts.
 Boundary conditions depend on the bearing type. For example, simple hinge

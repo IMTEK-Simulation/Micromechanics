@@ -1,8 +1,8 @@
 ---
 layout: default
-title: "Chapter 11 [Jan. 17-21]"
+title: "Chapter 11 [Jan. 24-28]"
 parent: Lecture
-date: 2021-10-17
+date: 2021-12-13
 categories: lecture
 author: Lars Pastewka
 nav_order: 11
