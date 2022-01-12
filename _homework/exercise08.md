@@ -9,4 +9,4 @@ nav_order: 8
 
 # Problem set 08 <br/> Stress and strain
 
-You can download this problem set [here](exercise_08_students.pdf).
+You can download this problem set [here](exercise_08_students.pdf). Please find the solutions to this problem set [here](exercise_08_solutions.pdf).
