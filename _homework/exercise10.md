@@ -1,10 +1,10 @@
 ---
 layout: default
-title:  "Problem set 09 [Jan. 10-14]"
+title:  "Problem set 10 [Jan. 17-21]"
 parent: Problem sets
 categories: problem-sets
 author : Lars Pastewka
-nav_order: 9
+nav_order: 10
 ---
 
 # Problem set 10 <br/> Bending and buckling
