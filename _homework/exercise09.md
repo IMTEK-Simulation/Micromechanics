@@ -9,4 +9,4 @@ nav_order: 9
 
 # Problem set 09 <br/> Bending
 
-You can download this problem set [here](exercise_09_students.pdf).
+You can download this problem set [here](exercise_09_students.pdf). Please find the solutions to this problem set [here](exercise_09_solutions.pdf).
