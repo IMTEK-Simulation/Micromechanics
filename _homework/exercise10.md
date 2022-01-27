@@ -9,4 +9,4 @@ nav_order: 10
 
 # Problem set 10 <br/> Bending and buckling
 
-You can download this problem set [here](exercise_10_students.pdf).
+You can download this problem set [here](exercise_10_students.pdf). Please find the solutions to this problem set [here](exercise_10_solutions.pdf).
