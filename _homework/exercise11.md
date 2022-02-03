@@ -9,4 +9,4 @@ nav_order: 11
 
 # Problem set 11 <br/> The Airy stress function
 
-You can download this problem set [here](exercise_11_students.pdf).
+You can download this problem set [here](exercise_11_students.pdf). Please find the solutions to this problem set [here](exercise_11_solutions.pdf).
