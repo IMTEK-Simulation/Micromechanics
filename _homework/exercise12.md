@@ -9,4 +9,4 @@ nav_order: 12
 
 # Problem set 12 <br/> Yield and fracture
 
-You can download this problem set [here](exercise_12_students.pdf).
+You can download this problem set [here](exercise_12_students.pdf). Please find the solutions to this problem set [here](exercise_12_solutions.pdf).
